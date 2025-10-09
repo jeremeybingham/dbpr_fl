@@ -1,7 +1,7 @@
 # dbpr_fl
 a complete RESTful API for Florida's DBPR Real Estate Licensing records
 
-
+![API Screenshot](Screenshot_API.png "API Screenshot")
 # DBPR
 
 Florida's real estate licensing authority is the [Department of Business and Professional Regulation](https://www2.myfloridalicense.com/real-estate-commission/public-records/), or "DBPR". This entity oversees the publicly available information about the status and details of all professional and business licenses issued by the State of Florida, including Real Estate agents, brokers, and accredited instructors. Information on an individual license is available [at a web interface](https://www.myfloridalicense.com/wl11.asp?mode=2&search=LicTyp&SID=&brd=&typ=) on their main website, but this doesn't allow one to evaluate multiple licensee's data at the same time. For this purpose, DBPR regularly (about 2-3 times a week on average) publishes a complete, current set of licensee data to a public server.
