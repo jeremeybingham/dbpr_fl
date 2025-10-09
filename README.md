@@ -15,8 +15,6 @@ We will use a combination of technologies to normalize and wrangle the dataset, 
 - 🦆 DuckDB - for initial data introspection, storage, and conversion
 - 🐻‍❄️ Polars - for more complex transformations and analysis via Dataframes
 
-I've completed protptyping on the entire pipeline and it builds, works, ingests, serves the API, etc. Broadly speaking the goals below have been met. However, before releasing the initial code I need to do a comprehensive analysis of the dataset and implement a LOT of subtle fixes in the ETL pipeline to deduplicate properly and handle MANY known and unknown special cases in the data. So, here's the list of what's complete:
-
 ### Data Acquisition & Storage
 * ✅ **Automated CSV fetching** - Python FTP downloader with 24-hour scheduling via APScheduler
   - Change detection via file modification timestamps
@@ -93,7 +91,8 @@ I've completed protptyping on the entire pipeline and it builds, works, ingests,
   - Health checks and restart policies
  
 
-The following is a list of known tweaks I still need to make: 
+## Update 10/9/2025:
+I've completed protptyping on the entire pipeline and it builds, works, ingests, serves the API, etc. Broadly speaking the goals above have been met. However, before releasing the initial code I need to do a comprehensive analysis of the dataset and implement a LOT of subtle fixes in the ETL pipeline to deduplicate properly and handle MANY known and unknown special cases in the ~465,000 rows of data. The following is a list of known tweaks I (potentially) still need to make before release. I've added several introspection scripts to the repo that demonstrate the kind of work I'm now doing to make sure the majority of known quirks are handled silently and permanently. To use them as-is you'll need the 14 raw DBPR `.csv` files in a directory `data/raw` relative to the script and `cities_valid.json` file. Try them for yourself and let me know if you find anything notable! 
 
 ## 🔍 Data Quality Analysis & Documentation
 
