@@ -14,6 +14,9 @@ We will use a combination of technologies to normalize and wrangle the dataset, 
 - 🐍 Python - for infrastructure and moving things around
 - 🦆 DuckDB - for initial data introspection, storage, and conversion
 - 🐻‍❄️ Polars - for more complex transformations and analysis via Dataframes
+- ⚡ FastAPI - Modern, async web framework for building the REST API with automatic OpenAPI documentation
+- 📦 Pydantic - Data validation and settings management using Python type annotations
+- ⏰ APScheduler - Background scheduler for automated ETL pipeline execution
 
 ### Data Acquisition & Storage
 * ✅ **Automated CSV fetching** - Python FTP downloader with 24-hour scheduling via APScheduler
