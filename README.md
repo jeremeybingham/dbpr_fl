@@ -10,6 +10,8 @@ This project analyzes Florida real estate license data to:
 - Identify large employers and their workforce distribution
 - Provide interactive search capabilities for employee rosters
 
+![web interface](images/top.png "top.png")
+
 The Florida DBPR license files are provided as 14 large regional CSV files. They contain significant data quality issues, but with proper processing can yield insights.
 
 ## Prerequisites
@@ -150,6 +152,8 @@ The interactive dashboard provides several views:
 - Breakdown of employers by employee count categories
 - Percentage distribution
 
+![web interface](images/employers.png "employers.png")
+
 ### 3. Top Employers
 - 20 largest employers by employee count
 - Shows employer name, license number, and top cities
@@ -158,6 +162,8 @@ The interactive dashboard provides several views:
 - Top 15 cities by employee count
 - Top 15 counties by employee count
 - Number of employers in each location
+
+![web interface](images/large_geo.png "large_geo.png")
 
 ### 5. Employer Geographic Diversity
 - Large employers (10+ employees) operating across multiple cities
@@ -168,6 +174,8 @@ The interactive dashboard provides several views:
 - Employer density in each location
 - Average employees per employer
 - Maximum employees for single employer
+
+![web interface](images/by_count.png "by_count.png")
 
 ### 7. Employee Search Interface
 
@@ -186,6 +194,8 @@ The dashboard includes a powerful search tool:
 - Displays employee name, license number, city, and county
 - Loading indicator for large searches
 - Clear button to reset search
+
+![web interface](images/search.png "search.png")
 
 ## Troubleshooting
 
