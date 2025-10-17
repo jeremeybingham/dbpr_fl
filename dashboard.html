@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florida Real Estate License Analysis Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f5f5f5;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2d3748;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #718096;
+            font-size: 1.1em;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card h2 {
+            color: #2d3748;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .card h3 {
+            color: #4a5568;
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 10px 0;
+        }
+        
+        .stat-label {
+            color: #718096;
+            font-size: 0.95em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        th {
+            background: #f7fafc;
+            padding: 12px;
+            text-align: left;
+            color: #2d3748;
+            font-weight: 600;
+            border-bottom: 2px solid #e2e8f0;
+            font-size: 0.9em;
+        }
+        
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+            color: #4a5568;
+            font-size: 0.9em;
+        }
+        
+        tr:hover {
+            background: #f7fafc;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #4a5568;
+            font-size: 1.2em;
+        }
+        
+        .error {
+            background: #fed7d7;
+            color: #c53030;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .number {
+            font-variant-numeric: tabular-nums;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 600;
+            background: #e6fffa;
+            color: #234e52;
+            margin-right: 4px;
+        }
+        
+        .city-list {
+            font-size: 0.85em;
+            color: #718096;
+        }
+        
+        .full-width {
+            grid-column: 1 / -1;
+        }
+        
+        .search-section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        .search-controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-group label {
+            color: #4a5568;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+        }
+        
+        .form-group select,
+        .form-group input {
+            padding: 10px;
+            border: 2px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 0.95em;
+            background: white;
+            transition: border-color 0.2s;
+        }
+        
+        .form-group select:focus,
+        .form-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .autocomplete-container {
+            position: relative;
+        }
+        
+        .autocomplete-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border: 2px solid #667eea;
+            border-top: none;
+            border-radius: 0 0 6px 6px;
+            max-height: 300px;
+            overflow-y: auto;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .autocomplete-item {
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .autocomplete-item:hover {
+            background: #f7fafc;
+        }
+        
+        .autocomplete-item:last-child {
+            border-bottom: none;
+        }
+        
+        .autocomplete-item strong {
+            color: #667eea;
+        }
+        
+        .autocomplete-item small {
+            color: #718096;
+            display: block;
+            font-size: 0.85em;
+        }
+        
+        .btn {
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            font-size: 0.95em;
+        }
+        
+        .btn:hover {
+            background: #5568d3;
+        }
+        
+        .btn-secondary {
+            background: #718096;
+        }
+        
+        .btn-secondary:hover {
+            background: #4a5568;
+        }
+        
+        .results-summary {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            color: #4a5568;
+        }
+        
+        .results-summary strong {
+            color: #2d3748;
+        }
+        
+        #employeeResults {
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #718096;
+        }
+        
+        .search-loading {
+            display: none;
+            text-align: center;
+            padding: 30px;
+            color: #667eea;
+        }
+        
+        .search-loading.active {
+            display: block;
+        }
+        
+        .spinner {
+            border: 3px solid #e2e8f0;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading" id="loading">Loading data...</div>
+    
+    <div class="container" id="content" style="display: none;">
+        <header>
+            <h1>Florida Real Estate License Analysis</h1>
+            <p class="subtitle">Employer-Employee Relationships & Geographic Distribution</p>
+        </header>
+        
+        <!-- Summary Statistics -->
+        <div class="grid">
+            <div class="card">
+                <div class="stat-label">Total Employees Analyzed</div>
+                <div class="stat-value number" id="totalEmployees">-</div>
+            </div>
+            <div class="card">
+                <div class="stat-label">Unique Employers</div>
+                <div class="stat-value number" id="uniqueEmployers">-</div>
+            </div>
+            <div class="card">
+                <div class="stat-label">Average Employees per Employer</div>
+                <div class="stat-value number" id="avgEmployees">-</div>
+            </div>
+            <div class="card">
+                <div class="stat-label">Median Employees per Employer</div>
+                <div class="stat-value number" id="medianEmployees">-</div>
+            </div>
+        </div>
+        
+        <!-- Data Quality Report -->
+        <div class="card" style="margin-bottom: 30px;">
+            <h2>Data Quality Report</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 15px;">
+                <div>
+                    <div class="stat-label">Total Source Records</div>
+                    <div style="font-size: 1.8em; font-weight: bold; color: #4a5568;" class="number" id="totalSourceRecords">-</div>
+                </div>
+                <div>
+                    <div class="stat-label">Records Included</div>
+                    <div style="font-size: 1.8em; font-weight: bold; color: #48bb78;" class="number" id="recordsIncluded">-</div>
+                </div>
+                <div>
+                    <div class="stat-label">Records Excluded</div>
+                    <div style="font-size: 1.8em; font-weight: bold; color: #f56565;" class="number" id="recordsExcluded">-</div>
+                </div>
+                <div>
+                    <div class="stat-label">Inclusion Rate</div>
+                    <div style="font-size: 1.8em; font-weight: bold; color: #667eea;" id="inclusionRate">-</div>
+                </div>
+            </div>
+            
+            <h3 style="margin-top: 25px; margin-bottom: 10px;">Exclusion Breakdown</h3>
+            <table id="exclusionTable">
+                <thead>
+                    <tr>
+                        <th>Exclusion Reason</th>
+                        <th>Count</th>
+                        <th>% of Total</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        
+        <!-- Employee Search Interface -->
+        <div class="search-section">
+            <h2>Search Employees by Employer and Location</h2>
+            <div class="search-controls">
+                <div class="form-group">
+                    <label for="employerSearch">Search Employer</label>
+                    <div class="autocomplete-container">
+                        <input 
+                            type="text" 
+                            id="employerSearch" 
+                            placeholder="Type employer name or license #..."
+                            autocomplete="off"
+                        >
+                        <div id="employerResults" class="autocomplete-results" style="display: none;"></div>
+                    </div>
+                    <input type="hidden" id="selectedEmployerLicense">
+                </div>
+                
+                <div class="form-group">
+                    <label for="citySearch">Filter by City (Optional)</label>
+                    <div class="autocomplete-container">
+                        <input 
+                            type="text" 
+                            id="citySearch" 
+                            placeholder="Type city name..."
+                            autocomplete="off"
+                        >
+                        <div id="cityResults" class="autocomplete-results" style="display: none;"></div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="countySearch">Filter by County (Optional)</label>
+                    <div class="autocomplete-container">
+                        <input 
+                            type="text" 
+                            id="countySearch" 
+                            placeholder="Type county name..."
+                            autocomplete="off"
+                        >
+                        <div id="countyResults" class="autocomplete-results" style="display: none;"></div>
+                    </div>
+                </div>
+                
+                <div class="form-group" style="justify-content: flex-end;">
+                    <label>&nbsp;</label>
+                    <div style="display: flex; gap: 10px;">
+                        <button class="btn" onclick="searchEmployees()">Search</button>
+                        <button class="btn btn-secondary" onclick="clearSearch()">Clear</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-loading" id="searchLoading">
+                <div class="spinner"></div>
+                <div>Searching employees...</div>
+            </div>
+            
+            <div id="searchResults" style="display: none;">
+                <div class="results-summary" id="resultsSummary"></div>
+                <div id="employeeResults">
+                    <table id="employeeTable">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Employee Name</th>
+                                <th>License Number</th>
+                                <th>City</th>
+                                <th>County</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Employer Size Distribution -->
+        <div class="card" style="margin-bottom: 30px;">
+            <h2>Employer Size Distribution</h2>
+            <table id="sizeDistribution">
+                <thead>
+                    <tr>
+                        <th>Size Category</th>
+                        <th>Number of Employers</th>
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        
+        <!-- Top Employers -->
+        <div class="card" style="margin-bottom: 30px;">
+            <h2>Top 20 Employers by Employee Count</h2>
+            <table id="topEmployers">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Employer Name</th>
+                        <th>License #</th>
+                        <th>Employees</th>
+                        <th>Top Cities</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        
+        <!-- Geographic Distribution -->
+        <div class="grid-2">
+            <div class="card">
+                <h2>Top 15 Cities by Employee Count</h2>
+                <table id="topCities">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>City</th>
+                            <th>Employees</th>
+                            <th>Employers</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            
+            <div class="card">
+                <h2>Top 15 Counties by Employee Count</h2>
+                <table id="topCounties">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>County</th>
+                            <th>Employees</th>
+                            <th>Employers</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Employer Geographic Diversity -->
+        <div class="card" style="margin-bottom: 30px;">
+            <h2>Large Employers - Geographic Diversity</h2>
+            <p style="color: #718096; margin-bottom: 15px;">Employers with 10+ employees operating across multiple cities</p>
+            <table id="employerDiversity">
+                <thead>
+                    <tr>
+                        <th>Employer Name</th>
+                        <th>License #</th>
+                        <th>Total Employees</th>
+                        <th>Cities</th>
+                        <th>Counties</th>
+                        <th>Top 5 Cities by Employee Count</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        
+        <!-- City and County Statistics -->
+        <div class="grid-2">
+            <div class="card">
+                <h2>City Employer Statistics</h2>
+                <h3>Top 10 Cities</h3>
+                <table id="cityStats">
+                    <thead>
+                        <tr>
+                            <th>City</th>
+                            <th>Employers</th>
+                            <th>Avg per Employer</th>
+                            <th>Max Single</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            
+            <div class="card">
+                <h2>County Employer Statistics</h2>
+                <h3>Top 10 Counties</h3>
+                <table id="countyStats">
+                    <thead>
+                        <tr>
+                            <th>County</th>
+                            <th>Employers</th>
+                            <th>Avg per Employer</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global data storage
+        let employeeData = [];
+        let employerRoster = [];
+        let cityList = [];
+        let countyList = [];
+        
+        // Autocomplete for employer search
+        document.addEventListener('DOMContentLoaded', () => {
+            const employerInput = document.getElementById('employerSearch');
+            const employerResults = document.getElementById('employerResults');
+            
+            employerInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase();
+                
+                if (query.length < 2) {
+                    employerResults.style.display = 'none';
+                    return;
+                }
+                
+                const matches = employerRoster.filter(emp => 
+                    emp.employer_name.toLowerCase().includes(query) ||
+                    emp.employer_license_number.toLowerCase().includes(query) ||
+                    (emp.employer_dba && emp.employer_dba.toLowerCase().includes(query))
+                ).slice(0, 10);
+                
+                if (matches.length === 0) {
+                    employerResults.style.display = 'none';
+                    return;
+                }
+                
+                employerResults.innerHTML = matches.map(emp => `
+                    <div class="autocomplete-item" onclick="selectEmployer('${emp.employer_license_number}', '${emp.employer_name.replace(/'/g, "\\'")}')">
+                        <strong>${emp.employer_name}</strong>
+                        <small>${emp.employer_license_number} • ${emp.employee_count} employees</small>
+                    </div>
+                `).join('');
+                
+                employerResults.style.display = 'block';
+            });
+            
+            // City autocomplete
+            const cityInput = document.getElementById('citySearch');
+            const cityResults = document.getElementById('cityResults');
+            
+            cityInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase();
+                
+                if (query.length < 2) {
+                    cityResults.style.display = 'none';
+                    return;
+                }
+                
+                const matches = cityList.filter(city => 
+                    city.toLowerCase().includes(query)
+                ).slice(0, 10);
+                
+                if (matches.length === 0) {
+                    cityResults.style.display = 'none';
+                    return;
+                }
+                
+                cityResults.innerHTML = matches.map(city => `
+                    <div class="autocomplete-item" onclick="selectCity('${city}')">
+                        ${city}
+                    </div>
+                `).join('');
+                
+                cityResults.style.display = 'block';
+            });
+            
+            // County autocomplete
+            const countyInput = document.getElementById('countySearch');
+            const countyResults = document.getElementById('countyResults');
+            
+            countyInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase();
+                
+                if (query.length < 2) {
+                    countyResults.style.display = 'none';
+                    return;
+                }
+                
+                const matches = countyList.filter(county => 
+                    county.toLowerCase().includes(query)
+                ).slice(0, 10);
+                
+                if (matches.length === 0) {
+                    countyResults.style.display = 'none';
+                    return;
+                }
+                
+                countyResults.innerHTML = matches.map(county => `
+                    <div class="autocomplete-item" onclick="selectCounty('${county}')">
+                        ${county}
+                    </div>
+                `).join('');
+                
+                countyResults.style.display = 'block';
+            });
+            
+            // Close dropdowns when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('.autocomplete-container')) {
+                    document.querySelectorAll('.autocomplete-results').forEach(el => {
+                        el.style.display = 'none';
+                    });
+                }
+            });
+        });
+        
+        function selectEmployer(license, name) {
+            document.getElementById('employerSearch').value = name;
+            document.getElementById('selectedEmployerLicense').value = license;
+            document.getElementById('employerResults').style.display = 'none';
+        }
+        
+        function selectCity(city) {
+            document.getElementById('citySearch').value = city;
+            document.getElementById('cityResults').style.display = 'none';
+        }
+        
+        function selectCounty(county) {
+            document.getElementById('countySearch').value = county;
+            document.getElementById('countyResults').style.display = 'none';
+        }
+        
+        function searchEmployees() {
+            const employerLicense = document.getElementById('selectedEmployerLicense').value;
+            const city = document.getElementById('citySearch').value.trim();
+            const county = document.getElementById('countySearch').value.trim();
+            
+            if (!employerLicense) {
+                alert('Please select an employer from the search results');
+                return;
+            }
+            
+            // Show loading indicator
+            document.getElementById('searchLoading').classList.add('active');
+            document.getElementById('searchResults').style.display = 'none';
+            
+            // Use setTimeout to allow UI to update before processing
+            setTimeout(() => {
+                // Find the employer in the roster
+                const employer = employerRoster.find(e => e.employer_license_number === employerLicense);
+                
+                if (!employer) {
+                    alert('Employer not found');
+                    document.getElementById('searchLoading').classList.remove('active');
+                    return;
+                }
+                
+                // Filter employees
+                let employees = employer.employees;
+                
+                if (city) {
+                    employees = employees.filter(e => 
+                        e.employee_city && e.employee_city.toLowerCase() === city.toLowerCase()
+                    );
+                }
+                
+                if (county) {
+                    // Need to look up county for each employee from full dataset
+                    employees = employees.filter(e => {
+                        const fullRecord = employeeData.find(ed => 
+                            ed.license_number === e.employee_license_number
+                        );
+                        return fullRecord && fullRecord.county_name.toLowerCase() === county.toLowerCase();
+                    });
+                }
+                
+                displayEmployeeResults(employer, employees, city, county);
+                
+                // Hide loading indicator
+                document.getElementById('searchLoading').classList.remove('active');
+            }, 50);
+        }
+        
+        function displayEmployeeResults(employer, employees, cityFilter, countyFilter) {
+            const resultsDiv = document.getElementById('searchResults');
+            const summaryDiv = document.getElementById('resultsSummary');
+            const tableBody = document.querySelector('#employeeTable tbody');
+            
+            // Clear previous results
+            tableBody.innerHTML = '';
+            
+            // Build summary
+            let summaryText = `<strong>${employer.employer_name}</strong> - `;
+            summaryText += `Showing ${employees.length} of ${employer.employee_count} employees`;
+            
+            if (cityFilter || countyFilter) {
+                summaryText += ' (Filtered by: ';
+                const filters = [];
+                if (cityFilter) filters.push(`City: ${cityFilter}`);
+                if (countyFilter) filters.push(`County: ${countyFilter}`);
+                summaryText += filters.join(', ') + ')';
+            }
+            
+            summaryDiv.innerHTML = summaryText;
+            
+            // Display employees
+            if (employees.length === 0) {
+                tableBody.innerHTML = '<tr><td colspan="5" class="no-results">No employees found matching the criteria</td></tr>';
+            } else {
+                employees.forEach((emp, index) => {
+                    // Look up full employee data for county info
+                    const fullRecord = employeeData.find(ed => 
+                        ed.license_number === emp.employee_license_number
+                    );
+                    
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td class="number">${index + 1}</td>
+                        <td>${emp.employee_name}</td>
+                        <td class="number">${emp.employee_license_number}</td>
+                        <td>${emp.employee_city || '-'}</td>
+                        <td>${fullRecord ? fullRecord.county_name : '-'}</td>
+                    `;
+                    tableBody.appendChild(tr);
+                });
+            }
+            
+            resultsDiv.style.display = 'block';
+        }
+        
+        function clearSearch() {
+            document.getElementById('employerSearch').value = '';
+            document.getElementById('selectedEmployerLicense').value = '';
+            document.getElementById('citySearch').value = '';
+            document.getElementById('countySearch').value = '';
+            document.getElementById('searchResults').style.display = 'none';
+            document.querySelectorAll('.autocomplete-results').forEach(el => {
+                el.style.display = 'none';
+            });
+        }
+        
+        function initializeSearchData() {
+            // Extract unique cities and counties
+            cityList = [...new Set(employeeData
+                .filter(e => e.city)
+                .map(e => e.city)
+            )].sort();
+            
+            countyList = [...new Set(employeeData
+                .filter(e => e.county_name)
+                .map(e => e.county_name)
+            )].sort();
+        }
+        
+        async function loadData() {
+            try {
+                // Load JSON files
+                const [
+                    summaryStats,
+                    dataQuality,
+                    sizeDistribution, 
+                    employerCounts,
+                    cityDistribution, 
+                    countyDistribution,
+                    employerDiversity,
+                    cityStats,
+                    countyStats,
+                    employees,
+                    roster
+                ] = await Promise.all([
+                    fetch('data/processed/summary_statistics.json').then(r => r.json()),
+                    fetch('data/processed/data_quality_report.json').then(r => r.json()),
+                    fetch('data/processed/employer_size_distribution.json').then(r => r.json()),
+                    fetch('data/processed/employer_employee_counts.json').then(r => r.json()),
+                    fetch('data/processed/city_distribution.json').then(r => r.json()),
+                    fetch('data/processed/county_distribution.json').then(r => r.json()),
+                    fetch('data/processed/employer_geographic_diversity.json').then(r => r.json()),
+                    fetch('data/processed/city_employer_statistics.json').then(r => r.json()),
+                    fetch('data/processed/county_employer_statistics.json').then(r => r.json()),
+                    fetch('data/processed/employees_with_complete_data.json').then(r => r.json()),
+                    fetch('data/processed/employer_roster_with_all_employees.json').then(r => r.json())
+                ]);
+                
+                // Store data globally
+                employeeData = employees;
+                employerRoster = roster;
+                
+                // Initialize search data
+                initializeSearchData();
+                
+                // Populate summary statistics
+                document.getElementById('totalEmployees').textContent = 
+                    summaryStats.total_with_employer.toLocaleString();
+                document.getElementById('uniqueEmployers').textContent = 
+                    summaryStats.unique_employers.toLocaleString();
+                document.getElementById('avgEmployees').textContent = 
+                    summaryStats.avg_employees.toFixed(1);
+                document.getElementById('medianEmployees').textContent = 
+                    summaryStats.median_employees.toFixed(1);
+                
+                // Populate data quality report
+                document.getElementById('totalSourceRecords').textContent = 
+                    dataQuality.total_rows.toLocaleString();
+                document.getElementById('recordsIncluded').textContent = 
+                    dataQuality.final_processed_rows.toLocaleString();
+                document.getElementById('recordsExcluded').textContent = 
+                    dataQuality.total_excluded.toLocaleString();
+                document.getElementById('inclusionRate').textContent = 
+                    dataQuality.inclusion_rate.toFixed(1) + '%';
+                
+                // Populate exclusion breakdown
+                const exclusionTableBody = document.querySelector('#exclusionTable tbody');
+                const exclusionReasons = [
+                    { key: 'not_target_license_type', label: 'EXPECTED: Not target license type (BK/BL/SL)' },
+                    { key: 'missing_license_number', label: 'Missing license number' },
+                    { key: 'missing_status', label: 'Missing status fields' },
+                    { key: 'missing_employer', label: 'Missing employer license information' },
+                    { key: 'missing_city', label: 'Missing city' },
+                    { key: 'missing_state', label: 'Missing state' },
+                    { key: 'missing_zip', label: 'Missing ZIP code' },
+                    { key: 'missing_county_code', label: 'Missing county code' },
+                    { key: 'missing_address1', label: 'Missing address' }
+                ];
+                
+                exclusionReasons.forEach(reason => {
+                    const count = dataQuality.exclusions[reason.key] || 0;
+                    const percentage = ((count / dataQuality.total_rows) * 100).toFixed(2);
+                    
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${reason.label}</td>
+                        <td class="number">${count.toLocaleString()}</td>
+                        <td class="number">${percentage}%</td>
+                    `;
+                    exclusionTableBody.appendChild(tr);
+                });
+                
+                // Calculate total for percentages
+                const totalEmployers = sizeDistribution.reduce((sum, row) => sum + row.num_employers, 0);
+                
+                // Populate employer size distribution
+                const sizeOrder = ['1 employee', '2-5 employees', '6-10 employees', 
+                                   '11-25 employees', '26-50 employees', '51-100 employees', '100+ employees'];
+                const sortedSizes = sizeDistribution.sort((a, b) => 
+                    sizeOrder.indexOf(a.size_category) - sizeOrder.indexOf(b.size_category)
+                );
+                
+                const sizeTableBody = document.querySelector('#sizeDistribution tbody');
+                sortedSizes.forEach(row => {
+                    const percentage = ((row.num_employers / totalEmployers) * 100).toFixed(1);
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${row.size_category}</td>
+                        <td class="number">${row.num_employers.toLocaleString()}</td>
+                        <td class="number">${percentage}%</td>
+                    `;
+                    sizeTableBody.appendChild(tr);
+                });
+                
+                // Populate top employers
+                const employersTableBody = document.querySelector('#topEmployers tbody');
+                employerCounts.slice(0, 20).forEach((row, index) => {
+                    const topCities = row.top_cities_raw ? 
+                        row.top_cities_raw.slice(0, 3).map(c => 
+                            `<span class="badge">${c.city} (${c.count})</span>`
+                        ).join('') : '-';
+                    
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td class="number">${index + 1}</td>
+                        <td>${row.name || '-'}</td>
+                        <td class="number">${row.employer_license_number}</td>
+                        <td class="number">${row.employee_count.toLocaleString()}</td>
+                        <td class="city-list">${topCities}</td>
+                    `;
+                    employersTableBody.appendChild(tr);
+                });
+                
+                // Create a map of city/county employee counts for lookups
+                const cityEmployeeMap = {};
+                cityDistribution.forEach(c => {
+                    cityEmployeeMap[c.normalized_city] = c.employee_count;
+                });
+                
+                const countyEmployeeMap = {};
+                countyDistribution.forEach(c => {
+                    countyEmployeeMap[c.county_name] = c.employee_count;
+                });
+                
+                // Populate top cities with employer count
+                const citiesTableBody = document.querySelector('#topCities tbody');
+                cityStats.slice(0, 15).forEach((row, index) => {
+                    const employeeCount = cityEmployeeMap[row.normalized_city] || 0;
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td class="number">${index + 1}</td>
+                        <td>${row.normalized_city}</td>
+                        <td class="number">${employeeCount.toLocaleString()}</td>
+                        <td class="number">${row.num_employers.toLocaleString()}</td>
+                    `;
+                    citiesTableBody.appendChild(tr);
+                });
+                
+                // Populate top counties with employer count
+                const countiesTableBody = document.querySelector('#topCounties tbody');
+                countyStats.slice(0, 15).forEach((row, index) => {
+                    const employeeCount = countyEmployeeMap[row.county_name] || 0;
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td class="number">${index + 1}</td>
+                        <td>${row.county_name}</td>
+                        <td class="number">${employeeCount.toLocaleString()}</td>
+                        <td class="number">${row.num_employers.toLocaleString()}</td>
+                    `;
+                    countiesTableBody.appendChild(tr);
+                });
+                
+                // Populate employer geographic diversity
+                const diversityTableBody = document.querySelector('#employerDiversity tbody');
+                
+                // Create a map of employer license to name from employerCounts
+                const employerNameMap = {};
+                employerCounts.forEach(emp => {
+                    employerNameMap[emp.employer_license_number] = emp.name;
+                });
+                
+                employerDiversity.slice(0, 20).forEach(row => {
+                    const employerName = employerNameMap[row.employer_license_number] || 'Unknown';
+                    const topCities = row.top_cities ? 
+                        row.top_cities.map(c => 
+                            `<span class="badge">${c.normalized_city} (${c.city_employee_count})</span>`
+                        ).join('') : '-';
+                    
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${employerName}</td>
+                        <td class="number">${row.employer_license_number}</td>
+                        <td class="number">${row.total_employees.toLocaleString()}</td>
+                        <td class="number">${row.num_cities}</td>
+                        <td class="number">${row.num_counties}</td>
+                        <td class="city-list">${topCities}</td>
+                    `;
+                    diversityTableBody.appendChild(tr);
+                });
+                
+                // Populate city statistics
+                const cityStatsBody = document.querySelector('#cityStats tbody');
+                cityStats.slice(0, 10).forEach(row => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${row.normalized_city}</td>
+                        <td class="number">${row.num_employers.toLocaleString()}</td>
+                        <td class="number">${row.avg_employees_per_employer.toFixed(1)}</td>
+                        <td class="number">${row.max_employees_single_employer.toLocaleString()}</td>
+                    `;
+                    cityStatsBody.appendChild(tr);
+                });
+                
+                // Populate county statistics
+                const countyStatsBody = document.querySelector('#countyStats tbody');
+                countyStats.slice(0, 10).forEach(row => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${row.county_name}</td>
+                        <td class="number">${row.num_employers.toLocaleString()}</td>
+                        <td class="number">${row.avg_employees_per_employer.toFixed(1)}</td>
+                    `;
+                    countyStatsBody.appendChild(tr);
+                });
+                
+                // Hide loading, show content
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+                
+            } catch (error) {
+                document.getElementById('loading').innerHTML = `
+                    <div class="error">
+                        <strong>Error loading data:</strong> ${error.message}<br>
+                        Make sure the JSON files are in the data/processed/ directory.
+                    </div>
+                `;
+            }
+        }
+        
+        // Load data when page loads
+        loadData();
+    </script>
+</body>
+</html>

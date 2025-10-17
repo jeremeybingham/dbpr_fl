@@ -1,0 +1,4160 @@
+[
+  {
+    "city": "ALACHUA",
+    "county_name": "Alachua",
+    "county_code": "11",
+    "variants": []
+  },
+  {
+    "city": "ALFORD",
+    "county_name": "Jackson",
+    "county_code": "42",
+    "variants": []
+  },
+  {
+    "city": "ALTAMONTE SPRINGS",
+    "county_name": "Seminole",
+    "county_code": "69",
+    "variants": [
+      "ALTAMONTE  SPRINGS",
+      "ALTAMONTE SPEINGS",
+      "ALTAMONTE SPGS",
+      "ALTAMONTE SPRING",
+      "ALTAMONTE SPRINGS,",
+      "ALTAMONTE SPRINSG",
+      "ALTAMONTESPRINGS",
+      "ALTAMOTNE SPRINGS",
+      "ALTIMONTE SPRINGS",
+      "ALTMONTE SPRINGS",
+      "ALTOMONTE SPRINGS",
+      "ALTAMONTE SPRINGS FL"
+    ]
+  },
+  {
+    "city": "ALTHA",
+    "county_name": "Calhoun",
+    "county_code": "17",
+    "variants": []
+  },
+  {
+    "city": "ANNA MARIA",
+    "county_name": "Manatee",
+    "county_code": "51",
+    "variants": []
+  },
+  {
+    "city": "APALACHICOLA",
+    "county_name": "Franklin",
+    "county_code": "29",
+    "variants": []
+  },
+  {
+    "city": "APOPKA",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": [
+      "APOKA",
+      "APOPA",
+      "APOPK",
+      "APOPKA,"
+    ]
+  },
+  {
+    "city": "ARCADIA",
+    "county_name": "DeSoto",
+    "county_code": "24",
+    "variants": []
+  },
+  {
+    "city": "ARCHER",
+    "county_name": "Alachua",
+    "county_code": "11",
+    "variants": []
+  },
+  {
+    "city": "ASTATULA",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": [
+      "ASHTABULA"
+    ]
+  },
+  {
+    "city": "ATLANTIC BEACH",
+    "county_name": "Duval",
+    "county_code": "26",
+    "variants": [
+      "ATLANTIC BCH",
+      "ATLANTA BEACH"
+    ]
+  },
+  {
+    "city": "ATLANTIS",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "AUBURNDALE",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "ABURNDALE",
+      "AUBERNDALE",
+      "AUBURDALE",
+      "AUBURN DALE",
+      "AUBURNDALE,",
+      "AUBUNRDALE",
+      "AURBUNDALE"
+    ]
+  },
+  {
+    "city": "AVENTURA",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "ADVENTURA",
+      "AVANTURA",
+      "AVENTRA",
+      "AVENTURE",
+      "AVENTURW",
+      "AVENURA",
+      "AVERNTURA",
+      "AVETURA",
+      "AVNTURA",
+      "VENTURA",
+      "ADVENTURE",
+      "AVENTRUA",
+      "AVENUTRA"
+    ]
+  },
+  {
+    "city": "AVON PARK",
+    "county_name": "Highlands",
+    "county_code": "38",
+    "variants": []
+  },
+  {
+    "city": "BAL HARBOUR",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "BAL HABOUR",
+      "BAL HARBOR",
+      "BAL-HARBOUR",
+      "BALL HARBOUR",
+      "BAY HARBOUR",
+      "BAY HARBOR",
+      "BAY- HARBOR",
+      "BEL HARBOR"
+    ]
+  },
+  {
+    "city": "BALDWIN",
+    "county_name": "Duval",
+    "county_code": "26",
+    "variants": [
+      "BALLWIN"
+    ]
+  },
+  {
+    "city": "BARTOW",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "BARTOW,"
+    ]
+  },
+  {
+    "city": "BASCOM",
+    "county_name": "Jackson",
+    "county_code": "42",
+    "variants": []
+  },
+  {
+    "city": "BAY HARBOR ISLANDS",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "BAL HARBOR ISLANDS",
+      "BAL HARBOUR ISLANDS",
+      "BAY HABOR ISLANDS",
+      "BAY HARBOR ISLAND",
+      "BAY HARBOR ISLANDS,",
+      "BAY HARBOUR ISLAND",
+      "BAY HARBOUR ISLANDS"
+    ]
+  },
+  {
+    "city": "BAY LAKE",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": []
+  },
+  {
+    "city": "BELL",
+    "county_name": "Gilchrist",
+    "county_code": "31",
+    "variants": [
+      "BELLS"
+    ]
+  },
+  {
+    "city": "BELLE GLADE",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "BALLE GLADE",
+      "BELLE GLAE",
+      "BELLEGLADE"
+    ]
+  },
+  {
+    "city": "BELLE ISLE",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": [
+      "BELLA ISLE",
+      "BELLE ISLES",
+      "BELLEISLE"
+    ]
+  },
+  {
+    "city": "BELLEAIR",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "BELLAIR",
+      "BELLE AIR",
+      "BELLEAIRE",
+      "BELAIR",
+      "BELL AIRE",
+      "BELLAIRE"
+    ]
+  },
+  {
+    "city": "BELLEAIR BEACH",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "BELLEAIR BCH",
+      "BELLEIAR BEACH"
+    ]
+  },
+  {
+    "city": "BELLEAIR BLUFFS",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "BELLAIRE BLUFFS",
+      "BELLEAIR BLUFF",
+      "BELLEAIRE BLUFFS",
+      "BELLEIAR BLUFFS"
+    ]
+  },
+  {
+    "city": "BELLEVIEW",
+    "county_name": "Marion",
+    "county_code": "52",
+    "variants": [
+      "BELLVIEW"
+    ]
+  },
+  {
+    "city": "BEVERLY BEACH",
+    "county_name": "Flagler",
+    "county_code": "28",
+    "variants": []
+  },
+  {
+    "city": "BISCAYNE PARK",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "BISCAINE PARK",
+      "BISCAYNE PRK"
+    ]
+  },
+  {
+    "city": "BLOUNTSTOWN",
+    "county_name": "Calhoun",
+    "county_code": "17",
+    "variants": []
+  },
+  {
+    "city": "BOCA RATON",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "BOCA  RATON",
+      "BOCA RAON",
+      "BOCA RARTON",
+      "BOCA RATO",
+      "BOCA RATOM",
+      "BOCA RATON F",
+      "BOCA RATON,",
+      "BOCA RATONE",
+      "BOCA RAT\u00d3N",
+      "BOCA ROTON",
+      "BOCA. RATON",
+      "BOCARATON",
+      "BOCCA RATON",
+      "ROCA RATON",
+      "BOCA  RATON FL",
+      "BOCA ARTON",
+      "BOCA RAOTN",
+      "BOCA RATON FL",
+      "BOCA RATON, FL",
+      "BOCA RTAON",
+      "BOCARAPON"
+    ]
+  },
+  {
+    "city": "BONIFAY",
+    "county_name": "Holmes",
+    "county_code": "40",
+    "variants": []
+  },
+  {
+    "city": "BONITA SPRINGS",
+    "county_name": "Lee",
+    "county_code": "46",
+    "variants": [
+      "BENITA SPRINGS",
+      "BOINTA SPRINGS",
+      "BONIT SPRINGS",
+      "BONITA  SPRINGS",
+      "BONITA SPGS",
+      "BONITA SPRING",
+      "BONITA SPRINGS,",
+      "BONITA SPRINS",
+      "BONITA SPRINTS",
+      "BONITA SRINGS",
+      "BONTIA SPRINGS",
+      "BONTITA SPRINGS",
+      "BONITA SPRINGS FL."
+    ]
+  },
+  {
+    "city": "BOWLING GREEN",
+    "county_name": "Hardee",
+    "county_code": "35",
+    "variants": []
+  },
+  {
+    "city": "BOYNTON BEACH",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "BOYNTN BEACH",
+      "BOYNTON  BEACH",
+      "BOYNTON BACH",
+      "BOYNTON BCH",
+      "BOYNTON BEACH,",
+      "BOYNTON NEACH",
+      "BOYNTON-BEACH",
+      "BOYNTONBEACH",
+      "BOYNTON\u00a0BEACH",
+      "BOYTNON BEACH",
+      "BOYTON BEACH",
+      "POYNTON BEACH",
+      "BOYNTON BEACH FL",
+      "BOYNTON BEACH, FL"
+    ]
+  },
+  {
+    "city": "BRADENTON",
+    "county_name": "Manatee",
+    "county_code": "51",
+    "variants": [
+      "BRABENTON",
+      "BRADENDON",
+      "BRADENTOM",
+      "BRADETON",
+      "BRAEDENTON",
+      "BRANDENTON",
+      "BRADENTON, FL"
+    ]
+  },
+  {
+    "city": "BRADENTON BEACH",
+    "county_name": "Manatee",
+    "county_code": "51",
+    "variants": [
+      "BRADENTON BCH"
+    ]
+  },
+  {
+    "city": "BRANFORD",
+    "county_name": "Suwannee",
+    "county_code": "71",
+    "variants": [
+      "BRADFORD",
+      "CRANFORD"
+    ]
+  },
+  {
+    "city": "BRINY BREEZES",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "BRISTOL",
+    "county_name": "Liberty",
+    "county_code": "49",
+    "variants": [
+      "BRISTOW"
+    ]
+  },
+  {
+    "city": "BRONSON",
+    "county_name": "Levy",
+    "county_code": "48",
+    "variants": [
+      "BRANSON",
+      "BRINSON"
+    ]
+  },
+  {
+    "city": "BROOKER",
+    "county_name": "Bradford",
+    "county_code": "14",
+    "variants": []
+  },
+  {
+    "city": "BROOKSVILLE",
+    "county_name": "Hernando",
+    "county_code": "37",
+    "variants": [
+      "BROOKESVILLE",
+      "BROOKEVILLE",
+      "BROOKSIVLLE",
+      "BROOKSVILE",
+      "BROOKSVILLS",
+      "BROOKVILLE",
+      "BROOSKVILLE"
+    ]
+  },
+  {
+    "city": "BRUCE",
+    "county_name": "Walton",
+    "county_code": "76",
+    "variants": []
+  },
+  {
+    "city": "BUNNELL",
+    "county_name": "Flagler",
+    "county_code": "28",
+    "variants": [
+      "BUNNEL",
+      "VUNNELL"
+    ]
+  },
+  {
+    "city": "BUSHNELL",
+    "county_name": "Sumter",
+    "county_code": "70",
+    "variants": []
+  },
+  {
+    "city": "CALLAHAN",
+    "county_name": "Nassau",
+    "county_code": "55",
+    "variants": []
+  },
+  {
+    "city": "CALLAWAY",
+    "county_name": "Bay",
+    "county_code": "13",
+    "variants": [
+      "CALLOWAY"
+    ]
+  },
+  {
+    "city": "CAMPBELLTON",
+    "county_name": "Jackson",
+    "county_code": "42",
+    "variants": []
+  },
+  {
+    "city": "CAPE CANAVERAL",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": [
+      "CAPE  CANAVERAL",
+      "CAPE CANAVAERAL",
+      "CAPE CANAVERL",
+      "CAPE CANEVERAL"
+    ]
+  },
+  {
+    "city": "CAPE CORAL",
+    "county_name": "Lee",
+    "county_code": "46",
+    "variants": [
+      "CAPE  CORAL",
+      "CAPE CORAL,",
+      "CAPE CORRAL",
+      "CAPE CORSL",
+      "CAPECORAL",
+      "CAPRE CORAL",
+      "KAPE CORAL"
+    ]
+  },
+  {
+    "city": "CARRABELLE",
+    "county_name": "Franklin",
+    "county_code": "29",
+    "variants": [
+      "CARABELLE"
+    ]
+  },
+  {
+    "city": "CARYVILLE",
+    "county_name": "Washington",
+    "county_code": "77",
+    "variants": [
+      "MARYVILLE"
+    ]
+  },
+  {
+    "city": "CASSELBERRY",
+    "county_name": "Seminole",
+    "county_code": "69",
+    "variants": [
+      "CASELBERRY",
+      "CASFELBERRY",
+      "CASSALBERRY",
+      "CASSELBERY",
+      "CASSELEBERRY"
+    ]
+  },
+  {
+    "city": "CEDAR KEY",
+    "county_name": "Levy",
+    "county_code": "48",
+    "variants": []
+  },
+  {
+    "city": "CELEBRATION",
+    "county_name": "Osceola",
+    "county_code": "59",
+    "variants": [
+      "CELERATION"
+    ]
+  },
+  {
+    "city": "CENTER HILL",
+    "county_name": "Sumter",
+    "county_code": "70",
+    "variants": [
+      "CENTERHILL"
+    ]
+  },
+  {
+    "city": "CENTURY",
+    "county_name": "Escambia",
+    "county_code": "27",
+    "variants": []
+  },
+  {
+    "city": "CHATTAHOOCHEE",
+    "county_name": "Gadsden",
+    "county_code": "30",
+    "variants": [
+      "CHATTAHOOTCHEE"
+    ]
+  },
+  {
+    "city": "CHIEFLAND",
+    "county_name": "Levy",
+    "county_code": "48",
+    "variants": []
+  },
+  {
+    "city": "CHIPLEY",
+    "county_name": "Washington",
+    "county_code": "77",
+    "variants": []
+  },
+  {
+    "city": "CLEARWATER",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "CLEAR WATER",
+      "CLEARATER",
+      "CLEARWATEER",
+      "CLEARWATER,",
+      "CLEAWATER",
+      "N CLEARWATER"
+    ]
+  },
+  {
+    "city": "CLERMONT",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": [
+      "CLEARMONT",
+      "CLEMONT",
+      "CLERMOMT",
+      "CLERONT",
+      "CLERRMONT"
+    ]
+  },
+  {
+    "city": "CLEWISTON",
+    "county_name": "Hendry",
+    "county_code": "36",
+    "variants": [
+      "LEWISTON"
+    ]
+  },
+  {
+    "city": "COCOA",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": []
+  },
+  {
+    "city": "COCOA BEACH",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": [
+      "COCO BEACH",
+      "COCOA  BEACH",
+      "COCOA BCH"
+    ]
+  },
+  {
+    "city": "COCONUT CREEK",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "COCNUT CREEK",
+      "COCO NUT CREEK",
+      "COCOANUT CREEK",
+      "COCOCNUT CREEK",
+      "COCOCUT CREEK",
+      "COCONOT CREEK",
+      "COCONT CREEK",
+      "COCONUT   CREECK",
+      "COCONUT CREECK",
+      "COCONUT CREEEK",
+      "COCONUT CREEK F",
+      "COCONUT GREEK",
+      "COCONUTCREECK",
+      "COCONUTCREEK",
+      "COONUT CREEK"
+    ]
+  },
+  {
+    "city": "COLEMAN",
+    "county_name": "Out of State",
+    "county_code": "70",
+    "variants": []
+  },
+  {
+    "city": "COOPER CITY",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "COOPER  CITY",
+      "COOPER-CITY",
+      "COOPERCITY"
+    ]
+  },
+  {
+    "city": "CORAL GABLES",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "CORAL GABELS",
+      "CORAL GABLE",
+      "CORAL GABLES,",
+      "CORAL GABLES.",
+      "CORAL GABLESS",
+      "CORAL GBALES",
+      "CORAL GRABLES",
+      "CORALGABLES",
+      "CORAN GABLES",
+      "CORLA GABLES"
+    ]
+  },
+  {
+    "city": "CORAL SPRINGS",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "CORA SPRINGS",
+      "CORAL  SPRINGS",
+      "CORAL SPEINGS",
+      "CORAL SPRIINGS",
+      "CORAL SPRING",
+      "CORAL SPRINGS,",
+      "CORAL SPRINNGS",
+      "CORAL SPRINTS",
+      "CORAL SPRNGS",
+      "CORAL, SPRINGS",
+      "CORALS SPRINGS",
+      "CORALSPRINGS",
+      "COROL SPRINGS",
+      "CORRAL SPRINGS"
+    ]
+  },
+  {
+    "city": "COTTONDALE",
+    "county_name": "Jackson",
+    "county_code": "42",
+    "variants": []
+  },
+  {
+    "city": "CRESCENT CITY",
+    "county_name": "Putnam",
+    "county_code": "64",
+    "variants": [
+      "CRECENT CITY"
+    ]
+  },
+  {
+    "city": "CRESTVIEW",
+    "county_name": "Okaloosa",
+    "county_code": "56",
+    "variants": [
+      "CRESSTVIEW"
+    ]
+  },
+  {
+    "city": "CROSS CITY",
+    "county_name": "Dixie",
+    "county_code": "25",
+    "variants": [
+      "CROSSCITY"
+    ]
+  },
+  {
+    "city": "CRYSTAL RIVER",
+    "county_name": "Citrus",
+    "county_code": "19",
+    "variants": [
+      "CRYSTAL  RIVER",
+      "CYSTAL RIVER"
+    ]
+  },
+  {
+    "city": "CUTLER BAY",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "CUTLERBAY",
+      "CUTTER BAY",
+      "CUTTLER BAY"
+    ]
+  },
+  {
+    "city": "DADE CITY",
+    "county_name": "Pasco",
+    "county_code": "61",
+    "variants": [
+      "DADE CITY,"
+    ]
+  },
+  {
+    "city": "DANIA BEACH",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "BANIA BEACH",
+      "DANIA  BEACH",
+      "DANIA BCH",
+      "DANIA BECH",
+      "DANIE BEACH"
+    ]
+  },
+  {
+    "city": "DAVENPORT",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "DAVEMPORT",
+      "DAVEN PORT",
+      "DAVENORT",
+      "DAVENPOERT",
+      "DAVENPPORT",
+      "DAVENTORT",
+      "DAVENVORT",
+      "DAVEPORT",
+      "DAVNPORT",
+      "DEVENPORT"
+    ]
+  },
+  {
+    "city": "DAVIE",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "DAVIES"
+    ]
+  },
+  {
+    "city": "DAYTONA BEACH",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "DATONA BEACH",
+      "DAYTON BEACH",
+      "DAYTONA  BEACH",
+      "DAYTONA BAECH",
+      "DAYTONA BCH",
+      "DAYTONA BEACAH",
+      "S. DAYTONA BEACH"
+    ]
+  },
+  {
+    "city": "DAYTONA BEACH SHORES",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "DAYTONA BCH SHORES",
+      "DAYTONA BEACGH SHORE",
+      "DAYTONA BEACH  SHORE"
+    ]
+  },
+  {
+    "city": "DEBARY",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "DE BARY",
+      "DEBARRY"
+    ]
+  },
+  {
+    "city": "DEERFIELD BEACH",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "DEEFIELD BEACH",
+      "DEER FIELD BEACH",
+      "DEERDIELD BEACH",
+      "DEERFEILD BEACH",
+      "DEERFFIELD BEACH",
+      "DEERFIELD   BEACH",
+      "DEERFIELD  BEACH",
+      "DEERFIELD BCH",
+      "DEERFIELD BCH.",
+      "DEERFIELD BEACH,",
+      "DEERFIELD0 BEACH",
+      "DEERFIELDBEACH",
+      "DEERFILD  BEACH",
+      "DEERFILD BEACH",
+      "DEERFILED BEACH",
+      "DEERIELD BEACH",
+      "DERFIELD BEACH"
+    ]
+  },
+  {
+    "city": "DEFUNIAK SPRINGS",
+    "county_name": "Walton",
+    "county_code": "76",
+    "variants": [
+      "DE FUNIAK SPRINGS",
+      "DEFUNAIK SPRINGS",
+      "DEFUNIAK SPGS"
+    ]
+  },
+  {
+    "city": "DELAND",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "DE LAND"
+    ]
+  },
+  {
+    "city": "DELRAY BEACH",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "BELRAY BEACH",
+      "DALRAY BEACH",
+      "DEIRAY BEACH",
+      "DEL RAY  BEACH",
+      "DEL RAY BEACH",
+      "DELARY BEACH",
+      "DELAY BEACH",
+      "DELIAY BEACH",
+      "DELRAT BEACH",
+      "DELRAY  BEACH",
+      "DELRAY BCH",
+      "DELRAY BEACHB",
+      "DELRAY BEAH",
+      "DELRAY BERACH",
+      "DELRAY EACH",
+      "DELREAY BEACH",
+      "DELREY BEACH",
+      "DERAY BEACH",
+      "W DELRAY BEACH"
+    ]
+  },
+  {
+    "city": "DELTONA",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "DELTONA`"
+    ]
+  },
+  {
+    "city": "DESTIN",
+    "county_name": "Okaloosa",
+    "county_code": "56",
+    "variants": []
+  },
+  {
+    "city": "DORAL",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "DORA",
+      "DORA;"
+    ]
+  },
+  {
+    "city": "DUNDEE",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": []
+  },
+  {
+    "city": "DUNEDIN",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "DUNDEDIN",
+      "DUNEBIN",
+      "DUNEDINE"
+    ]
+  },
+  {
+    "city": "DUNNELLON",
+    "county_name": "Marion",
+    "county_code": "52",
+    "variants": [
+      "DUNELLON",
+      "DUNNELON"
+    ]
+  },
+  {
+    "city": "EAGLE LAKE",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "EAGLE LAKES"
+    ]
+  },
+  {
+    "city": "EATONVILLE",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": []
+  },
+  {
+    "city": "EBRO",
+    "county_name": "Washington",
+    "county_code": "77",
+    "variants": []
+  },
+  {
+    "city": "EDGEWATER",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "EDGEWATERS"
+    ]
+  },
+  {
+    "city": "EDGEWOOD",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": []
+  },
+  {
+    "city": "EL PORTAL",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "ELPORTAL"
+    ]
+  },
+  {
+    "city": "ESTERO",
+    "county_name": "Lee",
+    "county_code": "46",
+    "variants": [
+      "ESTRERO",
+      "ESTRO"
+    ]
+  },
+  {
+    "city": "EUSTIS",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": [
+      "EUSTIST",
+      "EUTIS"
+    ]
+  },
+  {
+    "city": "EVERGLADES CITY",
+    "county_name": "Collier",
+    "county_code": "21",
+    "variants": []
+  },
+  {
+    "city": "FANNING SPRINGS",
+    "county_name": "Levy",
+    "county_code": "48",
+    "variants": []
+  },
+  {
+    "city": "FELLSMERE",
+    "county_name": "Indian River",
+    "county_code": "41",
+    "variants": [
+      "SELLSMERE"
+    ]
+  },
+  {
+    "city": "FERNANDINA BEACH",
+    "county_name": "Nassau",
+    "county_code": "55",
+    "variants": [
+      "FERNADINA BEACH",
+      "FERNANDIA BEACH",
+      "FERNANDINA BCH",
+      "FERNANDINAY BEACH",
+      "FERNIDINA BEACH",
+      "FETNANDINA BEACH"
+    ]
+  },
+  {
+    "city": "FLAGLER BEACH",
+    "county_name": "Flagler",
+    "county_code": "28",
+    "variants": [
+      "FLAGER BEACH"
+    ]
+  },
+  {
+    "city": "FLEMING ISLAND",
+    "county_name": "Clay",
+    "county_code": "20",
+    "variants": [
+      "FLEMIMG ISLAND",
+      "FLEMING ISAND",
+      "FLEMMING ISLAND"
+    ]
+  },
+  {
+    "city": "FLORIDA CITY",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "FLORIDA CITY."
+    ]
+  },
+  {
+    "city": "FORT LAUDERDALE",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "FOR LAUDERDALE",
+      "FORT  LAUDERDALE",
+      "FORT LADERDALE",
+      "FORT LAUDARDALE",
+      "FORT LAUDEDALE",
+      "FORT LAUDEERDALE",
+      "FORT LAUDERALE",
+      "FORT LAUDERDADE",
+      "FORT LAUDERDADLE",
+      "FORT LAUDERDAE",
+      "FORT LAUDERDAL",
+      "FORT LAUDERDALE,",
+      "FORT LAUDERDALEE",
+      "FORT LAUDERDALEW",
+      "FORT LAUDERDALLE",
+      "FORT LAUDERDLAE",
+      "FORT LAUDERDLE",
+      "FORT LAUDERDSLE",
+      "FORT LAUDEREDALE",
+      "FORT LAUDRRDALE",
+      "FORT LAUERDALE",
+      "FORT LAURDERDALE",
+      "FORT LAUTERDALE",
+      "FORT LUADERDALE",
+      "FORT-LAUDERDALE",
+      "FORT.LAUDERDALE",
+      "FORTH LAUDERDALE",
+      "FORTLAUDERDALE",
+      "FT  LAUDERDALE",
+      "FT . LAUDERDALE",
+      "FT LAUDERDALE",
+      "FT. LAUDERDALE"
+    ]
+  },
+  {
+    "city": "FORT MEADE",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "FT MEADE"
+    ]
+  },
+  {
+    "city": "FORT MYERS",
+    "county_name": "Lee",
+    "county_code": "46",
+    "variants": [
+      "FOR MYERS",
+      "FORT  MYERS",
+      "FORT MAYERS",
+      "FORT MEYERS",
+      "FORT MYER",
+      "FORT MYERS,",
+      "FORT MYERS\u00bfS",
+      "FORT-MYERS",
+      "FORTH MYERS",
+      "FORTMYERS",
+      "FT  MYERS",
+      "FT MYERS",
+      "FT.  MYERS",
+      "FT. MYERS",
+      "N FORT MYERS",
+      "N. FORT MYERS",
+      "N.FORT MYERS",
+      "S FORT MYERS"
+    ]
+  },
+  {
+    "city": "FORT MYERS BEACH",
+    "county_name": "Lee",
+    "county_code": "46",
+    "variants": [
+      "FT  MYERS BEACH",
+      "FT MYERS BEACH",
+      "FT. MYERS BEACH"
+    ]
+  },
+  {
+    "city": "FORT PIERCE",
+    "county_name": "St. Lucie",
+    "county_code": "66",
+    "variants": [
+      "FOR PIERCE",
+      "FORT  PIERCE",
+      "FORT PEIRCE",
+      "FORT PIERCE,",
+      "FORT PIRECE",
+      "FT PIERCE",
+      "FT. PIERCE",
+      "PORT PIERCE"
+    ]
+  },
+  {
+    "city": "FORT WALTON BEACH",
+    "county_name": "Okaloosa",
+    "county_code": "56",
+    "variants": [
+      "FORT  WALTON BEACH",
+      "FORT WALTO BEACH",
+      "FORT WALTON  BEACH",
+      "FORT WALTON BACH",
+      "FT WALTON BEACH",
+      "FT. WALTON BEACH"
+    ]
+  },
+  {
+    "city": "FORT WHITE",
+    "county_name": "Columbia",
+    "county_code": "22",
+    "variants": [
+      "FT WHITE",
+      "FT. WHITE"
+    ]
+  },
+  {
+    "city": "FREEPORT",
+    "county_name": "Walton",
+    "county_code": "76",
+    "variants": [
+      "FREE PORT"
+    ]
+  },
+  {
+    "city": "FROSTPROOF",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "FROST PROOF"
+    ]
+  },
+  {
+    "city": "FRUITLAND PARK",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": [
+      "FRUITLAND PK",
+      "FRUITLANDPARK"
+    ]
+  },
+  {
+    "city": "GAINESVILLE",
+    "county_name": "Alachua",
+    "county_code": "11",
+    "variants": [
+      "GAINESAVILLE",
+      "GAINESVILE",
+      "GAINESVILLE,FL",
+      "GAINESVILLLE",
+      "GAINESVLLE",
+      "GAINESVSILLE",
+      "GAINESWVILLE",
+      "GAINEVILLE",
+      "GAINSEVILLE",
+      "GAINSVILLE",
+      "GAINVESVILLE",
+      "GIANESVILLE",
+      "PAINESVILLE"
+    ]
+  },
+  {
+    "city": "GLEN SAINT MARY",
+    "county_name": "Baker",
+    "county_code": "12",
+    "variants": [
+      "GLEN ST MARY",
+      "GLEN ST. MARY"
+    ]
+  },
+  {
+    "city": "GOLDEN BEACH",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "GOLDEN BCH",
+      "HOLDEN BEACH"
+    ]
+  },
+  {
+    "city": "GRACEVILLE",
+    "county_name": "Jackson",
+    "county_code": "42",
+    "variants": [
+      "GRACEVILL"
+    ]
+  },
+  {
+    "city": "GRAND RIDGE",
+    "county_name": "Jackson",
+    "county_code": "42",
+    "variants": []
+  },
+  {
+    "city": "GRANT VALKARIA",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": [
+      "GRAND VALKARIA",
+      "GRANT-VALKARIA"
+    ]
+  },
+  {
+    "city": "GREEN COVE SPRINGS",
+    "county_name": "Clay",
+    "county_code": "20",
+    "variants": [
+      "GREEN COVE SPGS",
+      "GREEN COVE SPRGS",
+      "GREEN COVE SPRING",
+      "GREEN COVE SPRINGD",
+      "GREEN COVE SPRINGS,",
+      "GREENCOVE SPRINGS"
+    ]
+  },
+  {
+    "city": "GREENACRES",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "GREEN ACRES",
+      "GREENAACRES",
+      "GREENACES",
+      "GREENACRE",
+      "GREENACREAS",
+      "GREENACRESS",
+      "GRENNACRES"
+    ]
+  },
+  {
+    "city": "GREENSBORO",
+    "county_name": "Out of State",
+    "county_code": "710",
+    "variants": []
+  },
+  {
+    "city": "GREENVILLE",
+    "county_name": "Out of State",
+    "county_code": "741",
+    "variants": [
+      "GREENEVILLE",
+      "GREENVIKLE",
+      "GREENVILE",
+      "GREENVILLLE"
+    ]
+  },
+  {
+    "city": "GREENWOOD",
+    "county_name": "Jackson",
+    "county_code": "42",
+    "variants": []
+  },
+  {
+    "city": "GRETNA",
+    "county_name": "Gadsden",
+    "county_code": "30",
+    "variants": []
+  },
+  {
+    "city": "GROVELAND",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": []
+  },
+  {
+    "city": "GULF BREEZE",
+    "county_name": "Santa Rosa",
+    "county_code": "67",
+    "variants": [
+      "GUL BREEZE",
+      "GULF  BREEZE",
+      "GULF BRREEZE",
+      "GULFBREEZE"
+    ]
+  },
+  {
+    "city": "GULF STREAM",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "GULFSTREAM"
+    ]
+  },
+  {
+    "city": "GULFPORT",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "GULF PORT"
+    ]
+  },
+  {
+    "city": "HAINES CITY",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "HAINE CITY",
+      "HAINES  CITY",
+      "HAINES CIRY",
+      "HAINES CITY,",
+      "HAINESCITY",
+      "HAINS CITY",
+      "HANES CITY",
+      "HANIES CITY",
+      "HAYNES CITY"
+    ]
+  },
+  {
+    "city": "HALLANDALE BEACH",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "HALLADALE BEACH",
+      "HALLANDAE BEACH",
+      "HALLANDALE  BEACH",
+      "HALLANDALE BAECH",
+      "HALLANDALE BCH",
+      "HALLANDALE BEACH,",
+      "HALLANDALLE BEACH",
+      "HALLANDE BEACH",
+      "HALLANDELE BEACH",
+      "HALLANDLE BEACH",
+      "HALLENDALE BEACH",
+      "HALLLANDALE  BEACH",
+      "HALLLANDALE BEACH"
+    ]
+  },
+  {
+    "city": "HAMPTON",
+    "county_name": "Out of State",
+    "county_code": "710",
+    "variants": []
+  },
+  {
+    "city": "HAVANA",
+    "county_name": "Gadsden",
+    "county_code": "30",
+    "variants": [
+      "HAVANNA"
+    ]
+  },
+  {
+    "city": "HAVERHILL",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "HAWTHORNE",
+    "county_name": "Alachua",
+    "county_code": "11",
+    "variants": []
+  },
+  {
+    "city": "HIALEAH",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "HIAEAH",
+      "HIAHLEAH",
+      "HIALEA",
+      "HIALEH",
+      "HIALEIH",
+      "HIALIAH",
+      "HIEALEAH",
+      "HILLEAH"
+    ]
+  },
+  {
+    "city": "HIALEAH GARDENS",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "HIALAEH GARDENS",
+      "HIALEAH  GARDENS",
+      "HIALEAH GARDEN",
+      "HIALEAH GARDENS,"
+    ]
+  },
+  {
+    "city": "HIGH SPRINGS",
+    "county_name": "Alachua",
+    "county_code": "11",
+    "variants": [
+      "HIGH SPRINGS,",
+      "HIGHSPRINGS"
+    ]
+  },
+  {
+    "city": "HIGHLAND BEACH",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "HIGHLAND BCH"
+    ]
+  },
+  {
+    "city": "HIGHLAND PARK",
+    "county_name": "Out of State",
+    "county_code": "713",
+    "variants": []
+  },
+  {
+    "city": "HILLIARD",
+    "county_name": "Nassau",
+    "county_code": "55",
+    "variants": [
+      "HILLLIARD"
+    ]
+  },
+  {
+    "city": "HILLSBORO BEACH",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "HILLSBORO BCH",
+      "HILLSBORO BEAXH"
+    ]
+  },
+  {
+    "city": "HOLLY HILL",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "HOLLYHILL"
+    ]
+  },
+  {
+    "city": "HOLLYWOOD",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "HOLLIWOOD",
+      "HOLLLYWOOD",
+      "HOLLTYWOOD",
+      "HOLLWOOD",
+      "HOLLYHOOD",
+      "HOLLYOOD",
+      "HOLLYWOD",
+      "HOLLYWOOD,",
+      "HOLLYWOOD.",
+      "HOLLYWOOF",
+      "HOLLYWOOOD",
+      "HOLLYWWOD",
+      "HOLYWOOD"
+    ]
+  },
+  {
+    "city": "HOLMES BEACH",
+    "county_name": "Manatee",
+    "county_code": "51",
+    "variants": [
+      "HOLMES BCH"
+    ]
+  },
+  {
+    "city": "HOMESTEAD",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "HOMESTAD",
+      "HOMESTEAF",
+      "HOMESTEARD",
+      "HOMESTEASD",
+      "HOMESTED",
+      "HOMESTREAD",
+      "HOMETEAD",
+      "HOMSTEAD"
+    ]
+  },
+  {
+    "city": "HORSESHOE BEACH",
+    "county_name": "Dixie",
+    "county_code": "25",
+    "variants": [
+      "HORSESHOE BCH"
+    ]
+  },
+  {
+    "city": "HOWEY IN THE HILLS",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": [
+      "HOWEY IN THE HILL",
+      "HOWIE IN THE HILLS"
+    ]
+  },
+  {
+    "city": "HUDSON",
+    "county_name": "Pasco",
+    "county_code": "61",
+    "variants": []
+  },
+  {
+    "city": "HYPOLUXO",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "INDIALANTIC",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": [
+      "INDIA LANTIC",
+      "INDIATLANTIC"
+    ]
+  },
+  {
+    "city": "INDIAN CREEK",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": []
+  },
+  {
+    "city": "INDIAN HARBOUR BEACH",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": [
+      "INDIAN HARBOR BEACH",
+      "INDIAN HARBOUR  BEAC",
+      "INDIAN HARBOUR BCH",
+      "INDIAN HARBOUR BEAC",
+      "INDIAN HARBUR BEACH"
+    ]
+  },
+  {
+    "city": "INDIAN RIVER SHORES",
+    "county_name": "Indian River",
+    "county_code": "41",
+    "variants": []
+  },
+  {
+    "city": "INDIAN ROCKS BEACH",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "INDIAN ROCK BEACH",
+      "INDIAN ROCKS BCH",
+      "INDIN ROCKS BEACH"
+    ]
+  },
+  {
+    "city": "INDIAN SHORES",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": []
+  },
+  {
+    "city": "INDIANTOWN",
+    "county_name": "Martin",
+    "county_code": "53",
+    "variants": [
+      "INDIAN TOWN"
+    ]
+  },
+  {
+    "city": "INGLIS",
+    "county_name": "Levy",
+    "county_code": "48",
+    "variants": []
+  },
+  {
+    "city": "INLET BEACH",
+    "county_name": "Walton",
+    "county_code": "76",
+    "variants": []
+  },
+  {
+    "city": "INTERLACHEN",
+    "county_name": "Putnam",
+    "county_code": "64",
+    "variants": []
+  },
+  {
+    "city": "INVERNESS",
+    "county_name": "Citrus",
+    "county_code": "19",
+    "variants": [
+      "INVENESS",
+      "INVERESS",
+      "INVERNES",
+      "INVERNSESS"
+    ]
+  },
+  {
+    "city": "JACKSONVILLE",
+    "county_name": "Duval",
+    "county_code": "26",
+    "variants": [
+      "JACKASONVILLE",
+      "JACKDONVILLE",
+      "JACKONVILLE",
+      "JACKOSNVILLE",
+      "JACKSONEVILLE",
+      "JACKSONIVLLE",
+      "JACKSONSVILLE",
+      "JACKSONVILE",
+      "JACKSONVILEE",
+      "JACKSONVILL",
+      "JACKSONVILLE,",
+      "JACKSONVILLIE",
+      "JACKSONVILLLE",
+      "JACKSONVILOLE",
+      "JACKSONVLLE",
+      "JACKSOVILLE",
+      "JACKSOVNILLE",
+      "JACLKSONVILLE",
+      "JACLSONVILLE",
+      "JACSONVILLE",
+      "JAKCSONVILLE",
+      "JAVKSONVILLE"
+    ]
+  },
+  {
+    "city": "JACKSONVILLE BEACH",
+    "county_name": "Duval",
+    "county_code": "26",
+    "variants": [
+      "JACKSONVILLE  BEACH",
+      "JACKSONVILLE BCH",
+      "JACKSONVILLE BCH.",
+      "JACKSONVILLE BEACH,",
+      "JACKSONVILLE EACH",
+      "JACKSONVILLEBEACH",
+      "JACKSOVILLE BEACH"
+    ]
+  },
+  {
+    "city": "JASPER",
+    "county_name": "Hamilton",
+    "county_code": "34",
+    "variants": []
+  },
+  {
+    "city": "JAY",
+    "county_name": "Santa Rosa",
+    "county_code": "67",
+    "variants": []
+  },
+  {
+    "city": "JENNINGS",
+    "county_name": "Hamilton",
+    "county_code": "34",
+    "variants": []
+  },
+  {
+    "city": "JUNO BEACH",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "JUPITER",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "JUITER"
+    ]
+  },
+  {
+    "city": "JUPITER INLET COLONY",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "KENNETH CITY",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": []
+  },
+  {
+    "city": "KEY BISCAYNE",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "KAY BISCAYNE",
+      "KEY  BISCAYNE",
+      "KEY BICAYNE",
+      "KEY BISACYNE",
+      "KEY BISCANE",
+      "KEY BISCANYNE",
+      "KEY BISCASYNE",
+      "KEY BISCAYE",
+      "KEY BISCYANE",
+      "KEY BSICAYNE",
+      "KEYBISCAYNE"
+    ]
+  },
+  {
+    "city": "KEY COLONY BEACH",
+    "county_name": "Monroe",
+    "county_code": "54",
+    "variants": [
+      "KEY COLONY BCH"
+    ]
+  },
+  {
+    "city": "KEY WEST",
+    "county_name": "Monroe",
+    "county_code": "54",
+    "variants": [
+      "KEY WEAT",
+      "KEYWEST"
+    ]
+  },
+  {
+    "city": "KEYSTONE HEIGHTS",
+    "county_name": "Clay",
+    "county_code": "20",
+    "variants": [
+      "KEYSTONE HEIGTHS",
+      "KEYSTONE HTS"
+    ]
+  },
+  {
+    "city": "KISSIMMEE",
+    "county_name": "Osceola",
+    "county_code": "59",
+    "variants": [
+      "-KISSIMMEE",
+      "KIKSSIMMEE.",
+      "KISIIMMEE",
+      "KISIMMEE",
+      "KISSEIMMEE",
+      "KISSEMMEE",
+      "KISSIIMMEE",
+      "KISSIMEE",
+      "KISSIMEEE",
+      "KISSIMME",
+      "KISSIMMEE,",
+      "KISSIMMEEE",
+      "KISSIMMIE",
+      "KISSIMMIEE",
+      "KISSIMMMEE",
+      "KISSMMEE",
+      "KISSSIMMEE"
+    ]
+  },
+  {
+    "city": "LA CROSSE",
+    "county_name": "Out of State",
+    "county_code": "750",
+    "variants": []
+  },
+  {
+    "city": "LABELLE",
+    "county_name": "Hendry",
+    "county_code": "36",
+    "variants": [
+      "LA BELLE"
+    ]
+  },
+  {
+    "city": "LADY LAKE",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": [
+      "LADY LAKES",
+      "LADYLAKE"
+    ]
+  },
+  {
+    "city": "LAKE ALFRED",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "LAKE ALFRED,"
+    ]
+  },
+  {
+    "city": "LAKE BUENA VISTA",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": []
+  },
+  {
+    "city": "LAKE BUTLER",
+    "county_name": "Union",
+    "county_code": "73",
+    "variants": []
+  },
+  {
+    "city": "LAKE CITY",
+    "county_name": "Columbia",
+    "county_code": "22",
+    "variants": [
+      "LAKECITY"
+    ]
+  },
+  {
+    "city": "LAKE CLARKE SHORES",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "LAKE HAMILTON",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "LAKE HAMITLON"
+    ]
+  },
+  {
+    "city": "LAKE HELEN",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "LAKE HELLEN"
+    ]
+  },
+  {
+    "city": "LAKE MARY",
+    "county_name": "Seminole",
+    "county_code": "69",
+    "variants": [
+      "LAKE  MARY",
+      "LAKE MART",
+      "LAKE MERY",
+      "LAKEMARY"
+    ]
+  },
+  {
+    "city": "LAKE PARK",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "LAKE PLACID",
+    "county_name": "Highlands",
+    "county_code": "38",
+    "variants": []
+  },
+  {
+    "city": "LAKE WALES",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "LAKE WAILES",
+      "LAKE WLES",
+      "LAKEWALES"
+    ]
+  },
+  {
+    "city": "LAKE WORTH BEACH",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "LAKE WORTH BCH",
+      "LAKE WORTH BEACK",
+      "LAKEWORTH BEACH"
+    ]
+  },
+  {
+    "city": "LAKELAND",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "LAKE LAND"
+    ]
+  },
+  {
+    "city": "LAKEWOOD RANCH",
+    "county_name": "Manatee",
+    "county_code": "51",
+    "variants": [
+      "LACKWOOD RANCH",
+      "LAKE WOOD RANCH",
+      "LAKEWOOD RANCE",
+      "LAKEWOOD RCH",
+      "LAKEWOOD RNCH",
+      "LAKEWOOE RANCH"
+    ]
+  },
+  {
+    "city": "LAND O LAKES",
+    "county_name": "Pasco",
+    "county_code": "61",
+    "variants": [
+      "LAND  O LAKES",
+      "LAND 'O' LAKES",
+      "LAND 'OLAKES",
+      "LAND O  LAKES",
+      "LAND O LAKE",
+      "LAND O'  LAKES",
+      "LAND O' LAKES",
+      "LAND O'LAKES",
+      "LAND OF LAKES",
+      "LAND OLAKES",
+      "LAND O\u00bf LAKES",
+      "LAND O\u00bfLAKES",
+      "LAND-O-LAKES",
+      "LANDO LAKES",
+      "LANDOLAKES",
+      "LANDON LAKES",
+      "LANK O LAKES"
+    ]
+  },
+  {
+    "city": "LANTANA",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "LARGO",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "LAGO",
+      "LARGO,"
+    ]
+  },
+  {
+    "city": "LAUDERDALE LAKES",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "LAUDARDALE LAKES",
+      "LAUDERDALE  LAKES",
+      "LAUDERDALE LAKE",
+      "LAUDERDALES LAKES",
+      "LAUDERSALE LAKES",
+      "LAUDUDERDALE LAKES",
+      "LAURDERDALE LAKES"
+    ]
+  },
+  {
+    "city": "LAUDERHILL",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "LAUDER HILL",
+      "LAUDERDHILL",
+      "LAUDERHIL",
+      "LAUDERHILLL",
+      "LAUDERILL"
+    ]
+  },
+  {
+    "city": "LAUREL HILL",
+    "county_name": "Okaloosa",
+    "county_code": "56",
+    "variants": [
+      "LUAREL HILL"
+    ]
+  },
+  {
+    "city": "LAWTEY",
+    "county_name": "Bradford",
+    "county_code": "14",
+    "variants": []
+  },
+  {
+    "city": "LEE",
+    "county_name": "Madison",
+    "county_code": "50",
+    "variants": []
+  },
+  {
+    "city": "LEESBURG",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": [
+      "LEEBURG",
+      "LEEESBURG",
+      "LEESSBURG"
+    ]
+  },
+  {
+    "city": "LIGHTHOUSE POINT",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "LIGHHOUSE POINT",
+      "LIGHT HOUSE POINT",
+      "LIGHT HOUSE POINTE",
+      "LIGHTHOUSE POINTE",
+      "LIGHTHOUSE PT",
+      "LIGHTHOUSE PT.",
+      "LIGHTHOUSEPOINT",
+      "LIGTHOUSE POINT"
+    ]
+  },
+  {
+    "city": "LIVE OAK",
+    "county_name": "Suwannee",
+    "county_code": "71",
+    "variants": [
+      "LIVEOAK"
+    ]
+  },
+  {
+    "city": "LONGBOAT KEY",
+    "county_name": "Manatee",
+    "county_code": "51",
+    "variants": [
+      "LONG BOAT KEY",
+      "LONGBOATKEY"
+    ]
+  },
+  {
+    "city": "LONGWOOD",
+    "county_name": "Seminole",
+    "county_code": "69",
+    "variants": [
+      "LONG WOOD",
+      "LONGWOED"
+    ]
+  },
+  {
+    "city": "LOXAHATCHEE",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "LOXACHACHEE",
+      "LOXAHACHEE",
+      "LOXAHATCHEEE",
+      "LOXAHATCHER",
+      "LOXAHTACHEE",
+      "LOXAHTATCHEE",
+      "LOXAHTCHEE",
+      "LOXHATCHEE"
+    ]
+  },
+  {
+    "city": "LOXAHATCHEE GROVES",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "LUTZ",
+    "county_name": "Hillsborough",
+    "county_code": "39",
+    "variants": [
+      "LUZ"
+    ]
+  },
+  {
+    "city": "LYNN HAVEN",
+    "county_name": "Bay",
+    "county_code": "13",
+    "variants": [
+      "LYNN HEAVEN"
+    ]
+  },
+  {
+    "city": "MACCLENNY",
+    "county_name": "Baker",
+    "county_code": "12",
+    "variants": [
+      "MACCLEANY"
+    ]
+  },
+  {
+    "city": "MADEIRA BEACH",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "MADEIRA BCH",
+      "MADEIRA BREACH",
+      "MADERIA BEACH",
+      "MADIERA BEACH"
+    ]
+  },
+  {
+    "city": "MAITLAND",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": [
+      "MAINTLAND",
+      "MAITAND",
+      "MAITLALND"
+    ]
+  },
+  {
+    "city": "MALABAR",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": []
+  },
+  {
+    "city": "MALONE",
+    "county_name": "Jackson",
+    "county_code": "42",
+    "variants": []
+  },
+  {
+    "city": "MANALAPAN",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "MANGONIA PARK",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "MARATHON",
+    "county_name": "Monroe",
+    "county_code": "54",
+    "variants": []
+  },
+  {
+    "city": "MARCO ISLAND",
+    "county_name": "Collier",
+    "county_code": "21",
+    "variants": [
+      "MARCO IALAND",
+      "MARCO ISALND",
+      "MARCOISLAND"
+    ]
+  },
+  {
+    "city": "MARGATE",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "MAGATE",
+      "MARGARE",
+      "MARGARTE",
+      "MARGETE",
+      "MARGRATE"
+    ]
+  },
+  {
+    "city": "MARIANNA",
+    "county_name": "Jackson",
+    "county_code": "42",
+    "variants": []
+  },
+  {
+    "city": "MARY ESTHER",
+    "county_name": "Okaloosa",
+    "county_code": "56",
+    "variants": [
+      "MART ESTHER"
+    ]
+  },
+  {
+    "city": "MASCOTTE",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": [
+      "MACOTTE",
+      "MASCOTT"
+    ]
+  },
+  {
+    "city": "MAYO",
+    "county_name": "Lafayette",
+    "county_code": "44",
+    "variants": []
+  },
+  {
+    "city": "MCINTOSH",
+    "county_name": "Marion",
+    "county_code": "52",
+    "variants": [
+      "MC INTOSH"
+    ]
+  },
+  {
+    "city": "MEDLEY",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": []
+  },
+  {
+    "city": "MELBOURNE",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": [
+      "MELBORNE",
+      "MELBOUNE",
+      "MELBOURME",
+      "MELBOURN",
+      "MELBURNE",
+      "MELOURNE"
+    ]
+  },
+  {
+    "city": "MELBOURNE BEACH",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": [
+      "MELBOURE BEACH",
+      "MELBOUREN BEACH",
+      "MELBOURNE  BEACH",
+      "MELBOURNE BCH",
+      "MELBOURNE BCH.",
+      "MELBOURNE BEACG"
+    ]
+  },
+  {
+    "city": "MELBOURNE VILLAGE",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": []
+  },
+  {
+    "city": "MEXICO BEACH",
+    "county_name": "Bay",
+    "county_code": "13",
+    "variants": [
+      "MEXICO BCH"
+    ]
+  },
+  {
+    "city": "MIAMI",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "MAMI",
+      "MIAIMI",
+      "MIAM",
+      "MIAM I",
+      "MIAMAI",
+      "MIAMI,",
+      "MIMI",
+      "N.MIAMI"
+    ]
+  },
+  {
+    "city": "MIAMI BEACH",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "MAIMI BEACH",
+      "MIAIM BEACH",
+      "MIAM BEACH",
+      "MIAMI  BEACH",
+      "MIAMI BAECH",
+      "MIAMI BCH",
+      "MIAMI BEACH.",
+      "MIAMI BEACHE",
+      "MIAMI BEEACH",
+      "MIAMI-BEACH",
+      "MIAMIBEACH",
+      "N.MIAMI BEACH"
+    ]
+  },
+  {
+    "city": "MIAMI GARDENS",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "MAIMI GARDENS",
+      "MAMI GARDENS",
+      "MIAMI  GARDENS",
+      "MIAMI GAARDENS",
+      "MIAMI GADEN",
+      "MIAMI GARDEN",
+      "MIAMI GARDES",
+      "MIAMI GRADENS",
+      "MIAMI-GARDENS"
+    ]
+  },
+  {
+    "city": "MIAMI LAKES",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "MAIMI LAKES",
+      "MIAMI  LAKES",
+      "MIAMI LAKE",
+      "MIAMILAKES"
+    ]
+  },
+  {
+    "city": "MIAMI SHORES VILLAGE",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": []
+  },
+  {
+    "city": "MIAMI SPRINGS",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "MIAMI SORINGS",
+      "MIAMI SPRING",
+      "MIAMI SPRNGS"
+    ]
+  },
+  {
+    "city": "MICANOPY",
+    "county_name": "Alachua",
+    "county_code": "11",
+    "variants": []
+  },
+  {
+    "city": "MIDDLEBURG",
+    "county_name": "Clay",
+    "county_code": "20",
+    "variants": [
+      "MIDDDLEBURG",
+      "MIDDLEBERG",
+      "MIDDLEBURGE",
+      "MIDDLEBURY"
+    ]
+  },
+  {
+    "city": "MIDWAY",
+    "county_name": "Gadsden",
+    "county_code": "30",
+    "variants": []
+  },
+  {
+    "city": "MILTON",
+    "county_name": "Santa Rosa",
+    "county_code": "67",
+    "variants": []
+  },
+  {
+    "city": "MINNEOLA",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": [
+      "MINEOLA",
+      "MINNNEOLA"
+    ]
+  },
+  {
+    "city": "MIRAMAR",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "MIARAMAR",
+      "MIMAMAR",
+      "MIRAMAMR",
+      "MIRAMER",
+      "MIRAMIR",
+      "MIRAMRAR",
+      "MIRANAR",
+      "MIRARMAR",
+      "MIRIAMAR",
+      "MIRIMAR",
+      "MIRMAR"
+    ]
+  },
+  {
+    "city": "MONTICELLO",
+    "county_name": "Jefferson",
+    "county_code": "43",
+    "variants": []
+  },
+  {
+    "city": "MONTVERDE",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": [
+      "MONTEVERDE"
+    ]
+  },
+  {
+    "city": "MOORE HAVEN",
+    "county_name": "Glades",
+    "county_code": "32",
+    "variants": []
+  },
+  {
+    "city": "MOUNT DORA",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": [
+      "MOUNT  DORA",
+      "MT DORA",
+      "MT. DORA",
+      "NOUNT DORA"
+    ]
+  },
+  {
+    "city": "MULBERRY",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "MULBERY"
+    ]
+  },
+  {
+    "city": "NAPLES",
+    "county_name": "Collier",
+    "county_code": "21",
+    "variants": [
+      "NALES",
+      "NAPES",
+      "NAPLE",
+      "NAPLES,",
+      "NAPLES.",
+      "NAPPLES"
+    ]
+  },
+  {
+    "city": "NAVARRE",
+    "county_name": "Santa Rosa",
+    "county_code": "67",
+    "variants": [
+      "NARVARRE",
+      "NAVARRE,",
+      "NAVAVRRE",
+      "NAVERRE"
+    ]
+  },
+  {
+    "city": "NEPTUNE BEACH",
+    "county_name": "Duval",
+    "county_code": "26",
+    "variants": [
+      "NEPTUNE  BEACH",
+      "NEPTUNE BCH"
+    ]
+  },
+  {
+    "city": "NEW PORT RICHEY",
+    "county_name": "Pasco",
+    "county_code": "61",
+    "variants": [
+      "NEW PORT RICHE",
+      "NEW PORT RICHEYY",
+      "NEW PORT RICHIE",
+      "NEW PORT RICHY",
+      "NEW PORT RITCHEY",
+      "NEW PORTRICHEY",
+      "NEW PT RICHEY",
+      "NEWPORT RICHEY",
+      "NEWPORT RITCHEY"
+    ]
+  },
+  {
+    "city": "NEW SMYRNA BEACH",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "NEW SMRYNA BEACH",
+      "NEW SMYNA BEACH",
+      "NEW SMYNRA BEACH",
+      "NEW SMYRMA BEACH",
+      "NEW SMYRNA  BEACH",
+      "NEW SMYRNA BCH",
+      "NEW SMYRNA BCH.",
+      "NEW SMYRNA BEAC",
+      "NEW SYMRNA BEACH"
+    ]
+  },
+  {
+    "city": "NEWBERRY",
+    "county_name": "Alachua",
+    "county_code": "11",
+    "variants": [
+      "NEW BERRY",
+      "NEWBERYY"
+    ]
+  },
+  {
+    "city": "NICEVILLE",
+    "county_name": "Okaloosa",
+    "county_code": "56",
+    "variants": [
+      "NICECVILLE",
+      "NICEIVILLE",
+      "NICEVILE"
+    ]
+  },
+  {
+    "city": "NOKOMIS",
+    "county_name": "Sarasota",
+    "county_code": "68",
+    "variants": [
+      "NOKIMIS"
+    ]
+  },
+  {
+    "city": "NOMA",
+    "county_name": "Holmes",
+    "county_code": "40",
+    "variants": []
+  },
+  {
+    "city": "NORTH BAY VILLAGE",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "N BAY VILLAGE",
+      "N. BAY VILLAGE",
+      "NORTH  BAY VILLAGE",
+      "NORTH BAY VILLGE"
+    ]
+  },
+  {
+    "city": "NORTH LAUDERDALE",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "N LAUDERDALE",
+      "N. LAUDERDALE",
+      "NORT LAUDERDALE",
+      "NORTH LAUDEDALE",
+      "NORTH LAURDERDALE",
+      "NORTH-LAUDERDALE"
+    ]
+  },
+  {
+    "city": "NORTH MIAMI",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "N MIAMI",
+      "N. MIAMI",
+      "NOERTH MIAMI",
+      "NORHT MIAMI",
+      "NORT MIAMI",
+      "NORTH MAIMI",
+      "NORTH-MIAMI",
+      "NORTHMIAMI"
+    ]
+  },
+  {
+    "city": "NORTH MIAMI BEACH",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "N MIAMI BEACH",
+      "N. MIAMI  BEACH",
+      "N. MIAMI BEACH",
+      "NORT MIAMI BEACH",
+      "NORTH  MIAMI  BEACH",
+      "NORTH MIAMI  BEACH",
+      "NORTH MIAMI BCH",
+      "NORTH MIAMI BEA",
+      "NORTH MIAMI BEACH, F",
+      "NORTH MIAMI BEACH-FL",
+      "NORTH MIAMI BEAH",
+      "NOTH MIAMI BEACH"
+    ]
+  },
+  {
+    "city": "NORTH PALM BEACH",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "N  PALM BEACH",
+      "N PALM BEACH",
+      "N. PALM BEACH",
+      "NORTH PALM BCH",
+      "NORTH PALM BEAACH",
+      "NORTRH PALM BEACH"
+    ]
+  },
+  {
+    "city": "NORTH PORT",
+    "county_name": "Sarasota",
+    "county_code": "68",
+    "variants": [
+      "N PORT",
+      "NORT PORT",
+      "NORTHPORT"
+    ]
+  },
+  {
+    "city": "OAK HILL",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "OAKHILL"
+    ]
+  },
+  {
+    "city": "OAKLAND",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": [
+      "OAKLND"
+    ]
+  },
+  {
+    "city": "OAKLAND PARK",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "OAK LAND PARK",
+      "OAKALND PARK",
+      "OAKLAND  PARK",
+      "OAKLAND OARK",
+      "OAKLANDPARK",
+      "OAKLEND PARK",
+      "OKLAND PARK"
+    ]
+  },
+  {
+    "city": "OCALA",
+    "county_name": "Marion",
+    "county_code": "52",
+    "variants": []
+  },
+  {
+    "city": "OCEAN BREEZE",
+    "county_name": "Martin",
+    "county_code": "53",
+    "variants": []
+  },
+  {
+    "city": "OCEAN RIDGE",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "OCOEE",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": [
+      "OCOCEE"
+    ]
+  },
+  {
+    "city": "ODESSA",
+    "county_name": "Hillsborough",
+    "county_code": "39",
+    "variants": [
+      "ODDESSA",
+      "ODESA",
+      "ODESS",
+      "ODESSSA"
+    ]
+  },
+  {
+    "city": "OKEECHOBEE",
+    "county_name": "Okeechobee",
+    "county_code": "57",
+    "variants": [
+      "OKECHOBEE",
+      "OKEECHOBEEE"
+    ]
+  },
+  {
+    "city": "OLDSMAR",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "OLDMAR",
+      "OLDSMARE",
+      "OLDSNAR",
+      "OLSMAR"
+    ]
+  },
+  {
+    "city": "OPA LOCKA",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "OPA-LOCKA",
+      "OPALOCKA"
+    ]
+  },
+  {
+    "city": "ORANGE CITY",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "ORANG CITY"
+    ]
+  },
+  {
+    "city": "ORANGE PARK",
+    "county_name": "Clay",
+    "county_code": "20",
+    "variants": [
+      "ORANG PARK",
+      "ORANGE  PARK",
+      "ORANGE PAKR",
+      "ORANGE PARKE",
+      "ORANGE PRK",
+      "ORANGEPARK"
+    ]
+  },
+  {
+    "city": "ORCHID",
+    "county_name": "Indian River",
+    "county_code": "41",
+    "variants": []
+  },
+  {
+    "city": "ORLANDO",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": [
+      "0RLANDO",
+      "OLANDO",
+      "ORANDO",
+      "ORLADO",
+      "ORLAND",
+      "ORLAND0",
+      "ORLANDNO",
+      "ORLANDO'S",
+      "ORLANDO.",
+      "ORLANDON",
+      "ORLANFO",
+      "ORLANO"
+    ]
+  },
+  {
+    "city": "ORMOND BEACH",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "ARMOND BEACH",
+      "ORMOND  BEACH",
+      "ORMOND BCH",
+      "ORMOND BEAACH",
+      "ORMOND BEACH,",
+      "ORMOND BEACJ",
+      "ORMOND BRACH",
+      "ORMUND BEACH",
+      "ORNOND BEACH",
+      "ALMOND BEACH"
+    ]
+  },
+  {
+    "city": "OTTER CREEK",
+    "county_name": "Levy",
+    "county_code": "48",
+    "variants": []
+  },
+  {
+    "city": "OVIEDO",
+    "county_name": "Seminole",
+    "county_code": "69",
+    "variants": [
+      "OVEDO"
+    ]
+  },
+  {
+    "city": "PACE",
+    "county_name": "Santa Rosa",
+    "county_code": "67",
+    "variants": []
+  },
+  {
+    "city": "PAHOKEE",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "PALATKA",
+    "county_name": "Putnam",
+    "county_code": "64",
+    "variants": []
+  },
+  {
+    "city": "PALM BAY",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": [
+      "PALM  BAY",
+      "PALMBAY"
+    ]
+  },
+  {
+    "city": "PALM BEACH",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "N.PALM BEACH",
+      "PALM BCH",
+      "PALM BEAC",
+      "W.PALM BEACH"
+    ]
+  },
+  {
+    "city": "PALM BEACH GARDENS",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "PALM  BEACH GARDENS",
+      "PALM BCH GARDENS",
+      "PALM BEACG GARDENS",
+      "PALM BEACH  GARDENS",
+      "PALM BEACH GAEDENS",
+      "PALM BEACH GARDE",
+      "PALM BEACH GARDE S",
+      "PALM BEACH GARDEN",
+      "PALM BEACH GARDENS F",
+      "PALM BEACH GARDENS,",
+      "PALM BEACH GRDNS",
+      "PALM BEAH GARDENS",
+      "PALMBEACH GARDENS",
+      "PALMBEACHGARDENS",
+      "PAM BEACH GARDENS",
+      "PLAM BEACH GARDENS"
+    ]
+  },
+  {
+    "city": "PALM BEACH SHORES",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": []
+  },
+  {
+    "city": "PALM COAST",
+    "county_name": "Flagler",
+    "county_code": "28",
+    "variants": [
+      "PAKM COAST",
+      "PALM  COAST",
+      "PALM COAST,",
+      "PALM COAST`",
+      "PALM COSST",
+      "PALMCOAST"
+    ]
+  },
+  {
+    "city": "PALM HARBOR",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "PALM  HARBOR",
+      "PALM HABOR",
+      "PALM HARBOUR",
+      "PALM HRBOR",
+      "PLAM HARBOR"
+    ]
+  },
+  {
+    "city": "PALM SHORES",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": []
+  },
+  {
+    "city": "PALM SPRINGS",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "PALM SPRING",
+      "PALM SPRINS"
+    ]
+  },
+  {
+    "city": "PALMETTO",
+    "county_name": "Manatee",
+    "county_code": "51",
+    "variants": [
+      "PALETTO",
+      "PALMETTO,",
+      "PAMETTO"
+    ]
+  },
+  {
+    "city": "PALMETTO BAY",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "PALLMETTO BAY",
+      "PALMETO BAY",
+      "PALMETTOBAY",
+      "PAMETTO BAY",
+      "PAOMETTO BAY",
+      "PLAMETTO BAY"
+    ]
+  },
+  {
+    "city": "PANAMA CITY",
+    "county_name": "Bay",
+    "county_code": "13",
+    "variants": [
+      "PANAMA  CITY",
+      "PANAMA CIT",
+      "PANAMA CITY,",
+      "PANORAMA CITY"
+    ]
+  },
+  {
+    "city": "PANAMA CITY BEACH",
+    "county_name": "Bay",
+    "county_code": "13",
+    "variants": [
+      "PAAMA CITY BEACH",
+      "PANAMA  CITY BEACH",
+      "PANAMA CITY  BEACH",
+      "PANAMA CITY BCH",
+      "PANAMA CITY BEA",
+      "PANAMA CITY BEAH",
+      "PANAMA CTY BEACH"
+    ]
+  },
+  {
+    "city": "PARKER",
+    "county_name": "Out of State",
+    "county_code": "706",
+    "variants": []
+  },
+  {
+    "city": "PARKLAND",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "BARKLAND",
+      "PAKLAND",
+      "PARKAND"
+    ]
+  },
+  {
+    "city": "PARRISH",
+    "county_name": "Manatee",
+    "county_code": "51",
+    "variants": [
+      "PARISH",
+      "PARRRISH"
+    ]
+  },
+  {
+    "city": "PEMBROKE PARK",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": []
+  },
+  {
+    "city": "PEMBROKE PINES",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "PEMBOKE PINES",
+      "PEMBORKE PINES",
+      "PEMBRO PINES",
+      "PEMBROKE  PINE",
+      "PEMBROKE  PINES",
+      "PEMBROKE PINE",
+      "PEMBROKE PINEF",
+      "PEMBROKE PINES,",
+      "PEMBROKE PINS",
+      "PEMBROKE PNES",
+      "PEMBROKE PNS",
+      "PEMBROKE PONES",
+      "PEMBROKE, PINES",
+      "PEMBROKE-PINES",
+      "PEMBROKEPINES",
+      "PEMBROKRE PINES",
+      "PEMBROOK PINES",
+      "PEMBROOKE PINES",
+      "PEMEBROKE PINES",
+      "PEMMBROKE PINES",
+      "PEMPBROKE PINES",
+      "PEMPROKE PINES",
+      "PENBROKE PINES",
+      "PERBROKE PINES",
+      "PMBROKE PINES",
+      "PRMBROKE PINES",
+      "TEMBROKE PINES"
+    ]
+  },
+  {
+    "city": "PENSACOLA",
+    "county_name": "Escambia",
+    "county_code": "27",
+    "variants": [
+      "PENACOLA",
+      "PENSCOLA"
+    ]
+  },
+  {
+    "city": "PERRY",
+    "county_name": "Taylor",
+    "county_code": "72",
+    "variants": []
+  },
+  {
+    "city": "PIERSON",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "PEIERSON"
+    ]
+  },
+  {
+    "city": "PINECREST",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "PINCECREST",
+      "PINE CREST",
+      "PINESCREST",
+      "PINRCREST"
+    ]
+  },
+  {
+    "city": "PINELLAS PARK",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "PINELLAS  PARK",
+      "PINELLLAS PARK"
+    ]
+  },
+  {
+    "city": "PLANT CITY",
+    "county_name": "Hillsborough",
+    "county_code": "39",
+    "variants": [
+      "PLAN CITY",
+      "PLANC CITY",
+      "PLANT  CITY",
+      "PLANTCITY"
+    ]
+  },
+  {
+    "city": "PLANTATION",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "PLAINTATION",
+      "PLANATATION",
+      "PLANATION",
+      "PLANTATATION",
+      "PLANTATIION",
+      "PLANTATIOM",
+      "PLANTATION,",
+      "PLANTATIOON",
+      "PLATATION"
+    ]
+  },
+  {
+    "city": "POLK CITY",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "POLKCITY"
+    ]
+  },
+  {
+    "city": "POMONA PARK",
+    "county_name": "Putnam",
+    "county_code": "64",
+    "variants": []
+  },
+  {
+    "city": "POMPANO BEACH",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "PAMPANO BEACH",
+      "POMANO BEACH",
+      "POMAPANO BEACH",
+      "POMAPNO BEACH",
+      "POMPANO  BEACH",
+      "POMPANO BAECH",
+      "POMPANO BCH",
+      "POMPANO BEAC H",
+      "POMPANO BEACH,",
+      "POMPANO BEAH",
+      "POMPANO BEAHC",
+      "POMPANO BECAH",
+      "POMPANO BECH",
+      "POMPAO BEACH",
+      "POMPNO BEACH",
+      "POPANO BEACH"
+    ]
+  },
+  {
+    "city": "PONCE DE LEON",
+    "county_name": "Walton",
+    "county_code": "76",
+    "variants": []
+  },
+  {
+    "city": "PONCE INLET",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": []
+  },
+  {
+    "city": "PORT ORANGE",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "FORT ORANGE",
+      "PORT  ORANGE",
+      "PORT ORANGE,",
+      "PORT ORNAGE"
+    ]
+  },
+  {
+    "city": "PORT RICHEY",
+    "county_name": "Pasco",
+    "county_code": "61",
+    "variants": [
+      "PORT  RICHEY",
+      "PORT RICHIE"
+    ]
+  },
+  {
+    "city": "PORT ST JOE",
+    "county_name": "Gulf",
+    "county_code": "33",
+    "variants": [
+      "PORT SAINT JOE",
+      "PORT ST JE",
+      "PORT ST. JOE"
+    ]
+  },
+  {
+    "city": "PORT ST LUCIE",
+    "county_name": "St. Lucie",
+    "county_code": "66",
+    "variants": [
+      "POR ST LUCIE",
+      "PORT  ST. LUCIE",
+      "PORT  ST.LUCIE",
+      "PORT SAINT  LUCIE",
+      "PORT SAINT LUCIE",
+      "PORT SAINT LUCIE,",
+      "PORT SAINT LUCIE`",
+      "PORT SANT LUCIE",
+      "PORT ST  LUCIE",
+      "PORT ST LOUCIE",
+      "PORT ST LUCE",
+      "PORT ST LUCIA",
+      "PORT ST LUCUE",
+      "PORT ST LUICE",
+      "PORT ST, LUCIE",
+      "PORT ST. LUCIE",
+      "PORT ST. LUCIIE",
+      "PORT ST. LUICE",
+      "PORT ST.LUCIE",
+      "PORT STE LUCIE",
+      "PORT. ST LUCIE",
+      "POST ST LUCIE",
+      "PT ST LUCIE",
+      "PT. ST. LUCIE"
+    ]
+  },
+  {
+    "city": "PUNTA GORDA",
+    "county_name": "Charlotte",
+    "county_code": "18",
+    "variants": [
+      "OUNTA GORDA",
+      "PUBTA GORDA",
+      "PUNTA GIRDA",
+      "PUNTA GORDE",
+      "PUNTA |GORDA",
+      "PUNTAGORDA"
+    ]
+  },
+  {
+    "city": "QUINCY",
+    "county_name": "Gadsden",
+    "county_code": "30",
+    "variants": []
+  },
+  {
+    "city": "RAIFORD",
+    "county_name": "Union",
+    "county_code": "73",
+    "variants": [
+      "RAEFORD"
+    ]
+  },
+  {
+    "city": "REDDICK",
+    "county_name": "Marion",
+    "county_code": "52",
+    "variants": []
+  },
+  {
+    "city": "REDINGTON BEACH",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "N REDINGTON BEACH",
+      "N. REDINGTON BEACH"
+    ]
+  },
+  {
+    "city": "REDINGTON SHORES",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "REDDINGTON SHORES",
+      "REDJNGTON SHORES"
+    ]
+  },
+  {
+    "city": "RIVERVIEW",
+    "county_name": "Hillsborough",
+    "county_code": "39",
+    "variants": [
+      "RIVER VIEW",
+      "RIVERVIW",
+      "RVERVIEW"
+    ]
+  },
+  {
+    "city": "RIVIERA BEACH",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "RIVERA BEACH",
+      "RIVERIA BEACH",
+      "RIVIERA BCH",
+      "RIVIERA BRACH",
+      "RIVIREA BEACH"
+    ]
+  },
+  {
+    "city": "ROCKLEDGE",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": [
+      "ROCKLEEDGE"
+    ]
+  },
+  {
+    "city": "ROYAL PALM BEACH",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "ROAYL PALM BEACH",
+      "ROYAL  PALM BEACH",
+      "ROYAL PALM  BEACH",
+      "ROYAL PALM BAECH",
+      "ROYAL PALM BCH",
+      "ROYAL PALM BECH",
+      "ROYAL PAM BEACH",
+      "ROYAL PLM BEACH"
+    ]
+  },
+  {
+    "city": "SAFETY HARBOR",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "SAFETY HATBOR",
+      "SAFTEY  HARBOR",
+      "SAFTEY HARBOR",
+      "SAFTY HARBOR"
+    ]
+  },
+  {
+    "city": "SAN ANTONIO",
+    "county_name": "Pasco",
+    "county_code": "61",
+    "variants": []
+  },
+  {
+    "city": "SANFORD",
+    "county_name": "Seminole",
+    "county_code": "69",
+    "variants": [
+      "SANDFORD",
+      "SANFORD,",
+      "SANFOTD",
+      "STANFORD"
+    ]
+  },
+  {
+    "city": "SANIBEL",
+    "county_name": "Lee",
+    "county_code": "46",
+    "variants": []
+  },
+  {
+    "city": "SANTA ROSA BEACH",
+    "county_name": "Walton",
+    "county_code": "76",
+    "variants": [
+      "SAN ROSA BEACH",
+      "SANA ROSA BEACH",
+      "SANTA  ROSA BEACH",
+      "SANTA ROSA  BEACH",
+      "SANTA ROSA BCH",
+      "SANTA ROSA BEAC",
+      "STA ROSA BEACH"
+    ]
+  },
+  {
+    "city": "SARASOTA",
+    "county_name": "Sarasota",
+    "county_code": "68",
+    "variants": [
+      "SARA SOTA",
+      "SARASAOTA",
+      "SARASOA",
+      "SARASOT",
+      "SARASOTA,",
+      "SARASOTS",
+      "SARASTOTA",
+      "SARATOTA",
+      "SAROSOTA",
+      "SARSOTA",
+      "SATASOTA"
+    ]
+  },
+  {
+    "city": "SATELLITE BEACH",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": [
+      "SATALLITE BEACH",
+      "SATELITE BEACH",
+      "SATELLIE BEACH",
+      "SATELLITA BEACH",
+      "SATELLITE BCH",
+      "SATELLITTE BEACH",
+      "SATILLITE BEACH"
+    ]
+  },
+  {
+    "city": "SEA RANCH LAKES",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "SEA RANCH LAKES,"
+    ]
+  },
+  {
+    "city": "SEBASTIAN",
+    "county_name": "Indian River",
+    "county_code": "41",
+    "variants": [
+      "SEBASTIEN",
+      "SEBASTION"
+    ]
+  },
+  {
+    "city": "SEBRING",
+    "county_name": "Highlands",
+    "county_code": "38",
+    "variants": [
+      "SEBRIG",
+      "SEDRING"
+    ]
+  },
+  {
+    "city": "SEMINOLE",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "SAMINOLE",
+      "SEMIBOLE",
+      "SEMNOLE"
+    ]
+  },
+  {
+    "city": "SEWALLS POINT",
+    "county_name": "Martin",
+    "county_code": "53",
+    "variants": [
+      "SEWALL'S POINT",
+      "SEWALLS PT"
+    ]
+  },
+  {
+    "city": "SHALIMAR",
+    "county_name": "Okaloosa",
+    "county_code": "56",
+    "variants": []
+  },
+  {
+    "city": "SNEADS",
+    "county_name": "Jackson",
+    "county_code": "42",
+    "variants": []
+  },
+  {
+    "city": "SOPCHOPPY",
+    "county_name": "Wakulla",
+    "county_code": "75",
+    "variants": []
+  },
+  {
+    "city": "SOUTH BAY",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": []
+  },
+  {
+    "city": "SOUTH DAYTONA",
+    "county_name": "Volusia",
+    "county_code": "74",
+    "variants": [
+      "S DAYTONA",
+      "S. DAYTONA",
+      "SOUTH DAYTONS"
+    ]
+  },
+  {
+    "city": "SOUTH MIAMI",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "S MIAMI",
+      "SOUTH  MIAMI"
+    ]
+  },
+  {
+    "city": "SOUTH PALM BEACH",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "S PALM BEACH",
+      "S. PALM BEACH"
+    ]
+  },
+  {
+    "city": "SOUTH PASADENA",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "S PASADENA",
+      "S. PASADENA",
+      "SOUTH PASADINA"
+    ]
+  },
+  {
+    "city": "SOUTHWEST RANCHES",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "S.WEST RANCHES",
+      "SOUTH WEST RANCHES",
+      "SOUTHWESTRANCHES"
+    ]
+  },
+  {
+    "city": "SPRINGFIELD",
+    "county_name": "Out of State",
+    "county_code": "736",
+    "variants": [
+      "SPRIINGFIELD"
+    ]
+  },
+  {
+    "city": "ST AUGUSTINE",
+    "county_name": "St. Johns",
+    "county_code": "65",
+    "variants": [
+      "SAINT AUGUSTINE",
+      "ST  AUGUSTINE",
+      "ST AGUSTINE",
+      "ST AUGESTINE",
+      "ST AUGUSTIINE",
+      "ST AUGUSTUNE",
+      "ST AUGUTINE",
+      "ST.  AUGUSTINE",
+      "ST. AGUSTINE",
+      "ST. AUGESTINE",
+      "ST. AUGUSITNE",
+      "ST. AUGUSTIN",
+      "ST. AUGUSTINE",
+      "ST. AUGUTINE",
+      "ST.AUGUSTINE",
+      "STAUGUSTINE",
+      "AUGUSTINE"
+    ]
+  },
+  {
+    "city": "ST AUGUSTINE BEACH",
+    "county_name": "St. Johns",
+    "county_code": "65",
+    "variants": [
+      "ST AUGUSTINE BCH",
+      "ST. AUGUSTINE BEACH"
+    ]
+  },
+  {
+    "city": "ST CLOUD",
+    "county_name": "Osceola",
+    "county_code": "59",
+    "variants": [
+      "SAINT  CLOUD",
+      "SAINT CLOUD",
+      "ST  CLOUD",
+      "ST  CLOULD",
+      "ST CLOUF",
+      "ST.  CLOUD",
+      "ST. CLOUD",
+      "ST.CLOUD",
+      "STCLOUD"
+    ]
+  },
+  {
+    "city": "ST LEO",
+    "county_name": "Pasco",
+    "county_code": "61",
+    "variants": [
+      "SAINT LEO"
+    ]
+  },
+  {
+    "city": "ST MARKS",
+    "county_name": "Wakulla",
+    "county_code": "75",
+    "variants": [
+      "SAINT MARKS",
+      "ST MARY'S",
+      "ST MARYS",
+      "ST. MARKS",
+      "ST. MARY'S",
+      "ST. MARYS",
+      "ST.MARKS"
+    ]
+  },
+  {
+    "city": "ST PETE BEACH",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "SAINT PETE BEACH",
+      "ST  PETE BEACH",
+      "ST PETE BCH",
+      "ST. PETE BCH",
+      "ST. PETE BEACH",
+      "ST.PETE BEACH"
+    ]
+  },
+  {
+    "city": "ST PETERSBURG",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "SAINT  PETERSBURG",
+      "SAINT PETERSBURG",
+      "SAINT. PETERSBURG",
+      "ST  PETERSBURG",
+      "ST PERTERBURG",
+      "ST PETERBURG",
+      "ST PETERSBERG",
+      "ST PETERSBRUG",
+      "ST PETERSBURGH",
+      "ST PETESRBURG",
+      "ST PTERSBURG",
+      "ST.  PETERSBURG",
+      "ST. PETERBURG",
+      "ST. PETEREBURG",
+      "ST. PETERSBERG",
+      "ST. PETERSBUG",
+      "ST. PETERSBUIRG",
+      "ST. PETERSBURG",
+      "ST. PETERSBURG,",
+      "ST. PETERSBURGE",
+      "ST. PETERSBURGH",
+      "ST. PETESBURG",
+      "ST.PERTERSBURG",
+      "ST.PETERBURG",
+      "ST.PETERSBURG",
+      "ST.PETESBURG",
+      "ST: PETERBSURG",
+      "STETERSBURG",
+      "STPETERSBURG"
+    ]
+  },
+  {
+    "city": "STARKE",
+    "county_name": "Bradford",
+    "county_code": "14",
+    "variants": [
+      "STARK",
+      "STARKE,"
+    ]
+  },
+  {
+    "city": "STUART",
+    "county_name": "Martin",
+    "county_code": "53",
+    "variants": [
+      "STUAT",
+      "STURT"
+    ]
+  },
+  {
+    "city": "SUNNY ISLES BEACH",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "SANNY ISLES BEACH",
+      "SUNNY AISLES BEACH",
+      "SUNNY ILES BEACH",
+      "SUNNY ILSES BEACH",
+      "SUNNY ISLE BEACH",
+      "SUNNY ISLES  BEACH",
+      "SUNNY ISLES BCH",
+      "SUNNY ISLES BEAH",
+      "SUNNY ISLES BECH",
+      "SUNNY ISLES EACH",
+      "SUNNY ISLESE BEACH",
+      "SUNNY ISLSE BEACH"
+    ]
+  },
+  {
+    "city": "SUNRISE",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "SUNRIAE",
+      "SUNRICE",
+      "SUNRRISE",
+      "SUNRTSE"
+    ]
+  },
+  {
+    "city": "SURFSIDE",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "SURF SIDE",
+      "SURFFIDE"
+    ]
+  },
+  {
+    "city": "SWEETWATER",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": []
+  },
+  {
+    "city": "TALLAHASSEE",
+    "county_name": "Leon",
+    "county_code": "47",
+    "variants": [
+      "TALLAHASEE",
+      "TALLAHASSE",
+      "TALLAHASSEEE",
+      "TALLAHASSSEE",
+      "TALLHASSEE"
+    ]
+  },
+  {
+    "city": "TAMARAC",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "TAMAAC",
+      "TAMARACK",
+      "TAMARC",
+      "TAMERAC",
+      "TAMRAC"
+    ]
+  },
+  {
+    "city": "TAMPA",
+    "county_name": "Hillsborough",
+    "county_code": "39",
+    "variants": [
+      "TAMA",
+      "TAMP"
+    ]
+  },
+  {
+    "city": "TARPON SPRINGS",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "TARNPON SPRINGS",
+      "TARPO SPRINGS",
+      "TARPON  SPRINGS",
+      "TARPON SPGS",
+      "TARPON SPRGS",
+      "TARPON SPRIN",
+      "TARPON SPRING",
+      "TARPON SPRINS",
+      "TARPONS SPRINGS"
+    ]
+  },
+  {
+    "city": "TAVARES",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": [
+      "TAVERES"
+    ]
+  },
+  {
+    "city": "TEMPLE TERRACE",
+    "county_name": "Hillsborough",
+    "county_code": "39",
+    "variants": [
+      "TEMPE TERRACE",
+      "TEMPLE TERACE",
+      "TEMPLE TERRAE",
+      "TEMPLE,TERRACE"
+    ]
+  },
+  {
+    "city": "TEQUESTA",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "TEQUESA",
+      "TEQUESPA",
+      "TEQUEST",
+      "TEQUETA"
+    ]
+  },
+  {
+    "city": "THE VILLAGES",
+    "county_name": "Sumter",
+    "county_code": "70",
+    "variants": [
+      "THE  VILLAGES",
+      "THE VILAGES",
+      "THE VILLAGE",
+      "THE VILLIAGES",
+      "THE VLLAGES",
+      "THEVILLAGES"
+    ]
+  },
+  {
+    "city": "TITUSVILLE",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": [
+      "TITIUSVILLE",
+      "TITUSVILE",
+      "TITUVILLE"
+    ]
+  },
+  {
+    "city": "TREASURE ISLAND",
+    "county_name": "Pinellas",
+    "county_code": "62",
+    "variants": [
+      "TREASURE ISALND",
+      "TRESURE ISLAND"
+    ]
+  },
+  {
+    "city": "TRENTON",
+    "county_name": "Gilchrist",
+    "county_code": "31",
+    "variants": [
+      "RENTON"
+    ]
+  },
+  {
+    "city": "UMATILLA",
+    "county_name": "Lake",
+    "county_code": "45",
+    "variants": []
+  },
+  {
+    "city": "VALPARAISO",
+    "county_name": "Okaloosa",
+    "county_code": "56",
+    "variants": [
+      "VALPARASO"
+    ]
+  },
+  {
+    "city": "VALRICO",
+    "county_name": "Hillsborough",
+    "county_code": "39",
+    "variants": [
+      "VAL RICO",
+      "VALEICO",
+      "VARICO"
+    ]
+  },
+  {
+    "city": "VENICE",
+    "county_name": "Sarasota",
+    "county_code": "68",
+    "variants": [
+      "VENICIE"
+    ]
+  },
+  {
+    "city": "VERNON",
+    "county_name": "Washington",
+    "county_code": "77",
+    "variants": []
+  },
+  {
+    "city": "VERO BEACH",
+    "county_name": "Indian River",
+    "county_code": "41",
+    "variants": [
+      "VERO  BEACH",
+      "VERO BCH",
+      "VERO BEACH,",
+      "VERO BECH",
+      "VERO VEACH"
+    ]
+  },
+  {
+    "city": "VIRGINIA GARDENS",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": [
+      "VIRGINI GARDENS"
+    ]
+  },
+  {
+    "city": "WALDO",
+    "county_name": "Alachua",
+    "county_code": "11",
+    "variants": []
+  },
+  {
+    "city": "WAUCHULA",
+    "county_name": "Hardee",
+    "county_code": "35",
+    "variants": [
+      "WACHULA",
+      "WAUCHULA,"
+    ]
+  },
+  {
+    "city": "WAUSAU",
+    "county_name": "Washington",
+    "county_code": "750",
+    "variants": []
+  },
+  {
+    "city": "WEBSTER",
+    "county_name": "Sumter",
+    "county_code": "70",
+    "variants": []
+  },
+  {
+    "city": "WELAKA",
+    "county_name": "Putnam",
+    "county_code": "64",
+    "variants": []
+  },
+  {
+    "city": "WELLINGTON",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "ELLINGTON",
+      "WELINGTON",
+      "WELLIGTON",
+      "WELLINGON",
+      "WELLINGTN",
+      "WELLINGTON,",
+      "WELLINGTONE",
+      "WELLINTON",
+      "WELLLINGTON"
+    ]
+  },
+  {
+    "city": "WESLEY CHAPEL",
+    "county_name": "Pasco",
+    "county_code": "61",
+    "variants": [
+      "WELSEY CHAPEL",
+      "WESELY CHAPEL",
+      "WESEY CHAPEL",
+      "WESLET CHAPEL",
+      "WESLEY  CHAPEL",
+      "WESLEY  CHAPLE",
+      "WESLEY CHAPEL,",
+      "WESLEY CHAPER",
+      "WESLEY CHAPPEL",
+      "WESLEYCHAPEL",
+      "WESLY CHAPEL",
+      "WESTEY CHAPEL",
+      "WESTLEY CHAPEL",
+      "WESTLY CHAPEL"
+    ]
+  },
+  {
+    "city": "WEST MELBOURNE",
+    "county_name": "Brevard",
+    "county_code": "15",
+    "variants": [
+      "W  MELBOURNE",
+      "W MELBOURNE",
+      "W. MELBOURNE",
+      "WEST MELBORNE",
+      "WEST MELBOUNE",
+      "WEST MELBOUNRE",
+      "WEST MELOUBRNE"
+    ]
+  },
+  {
+    "city": "WEST MIAMI",
+    "county_name": "Dade",
+    "county_code": "23",
+    "variants": []
+  },
+  {
+    "city": "WEST PALM BEACH",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "W PALM BEACH",
+      "W. PALM BEACH",
+      "WEST  PALM BEACH",
+      "WEST PALM  BEACH",
+      "WEST PALM BACH",
+      "WEST PALM BCH",
+      "WEST PALM BEA CH",
+      "WEST PALM BEAC",
+      "WEST PALM BEAH",
+      "WEST PALM BECH",
+      "WEST PALM BEQACH",
+      "WEST PALM PEACH",
+      "WEST PALMBEACH",
+      "WEST PLAM BEACH",
+      "WESTPALM BEACH"
+    ]
+  },
+  {
+    "city": "WEST PARK",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "WESTPARK"
+    ]
+  },
+  {
+    "city": "WESTLAKE",
+    "county_name": "Palm Beach",
+    "county_code": "60",
+    "variants": [
+      "WESLAKE",
+      "WEST LAKE"
+    ]
+  },
+  {
+    "city": "WESTON",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": []
+  },
+  {
+    "city": "WESTVILLE",
+    "county_name": "Holmes",
+    "county_code": "40",
+    "variants": []
+  },
+  {
+    "city": "WEWAHITCHKA",
+    "county_name": "Gulf",
+    "county_code": "33",
+    "variants": []
+  },
+  {
+    "city": "WHITE SPRINGS",
+    "county_name": "Hamilton",
+    "county_code": "34",
+    "variants": []
+  },
+  {
+    "city": "WILDWOOD",
+    "county_name": "Sumter",
+    "county_code": "70",
+    "variants": [
+      "WILD WOOD",
+      "WILDOOD"
+    ]
+  },
+  {
+    "city": "WILLISTON",
+    "county_name": "Levy",
+    "county_code": "48",
+    "variants": [
+      "WILISTON",
+      "WILLSTON"
+    ]
+  },
+  {
+    "city": "WILTON MANORS",
+    "county_name": "Broward",
+    "county_code": "16",
+    "variants": [
+      "WILTON MANOR",
+      "WILTON MANORS,",
+      "WILTON MAONORS"
+    ]
+  },
+  {
+    "city": "WINDERMERE",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": [
+      "WINDEMERE",
+      "WINDER MERE",
+      "WINDEREMERE",
+      "WINDERMER",
+      "WINDERMERD",
+      "WINDERMEREE",
+      "WINDERMIRE",
+      "WINDERMRE",
+      "WINDERNERE",
+      "WINDRMERE",
+      "WINTERMERE"
+    ]
+  },
+  {
+    "city": "WINTER GARDEN",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": [
+      "WINDER GARDEN",
+      "WINTER  GARDEN",
+      "WINTER GARDEIN",
+      "WINTER GARDENS",
+      "WINTER GARDER",
+      "WINTER GARGEN",
+      "WINTER GARNDE",
+      "WINTER GRADEN",
+      "WINTERGARDEN",
+      "WINTERGARDREN",
+      "WINYER GARDEN"
+    ]
+  },
+  {
+    "city": "WINTER HAVEN",
+    "county_name": "Polk",
+    "county_code": "63",
+    "variants": [
+      "WINTE HAVEN",
+      "WINTER HAVE",
+      "WINTER HAVENE",
+      "WINTER HEAVEN",
+      "WINTERHAVEN"
+    ]
+  },
+  {
+    "city": "WINTER PARK",
+    "county_name": "Orange",
+    "county_code": "58",
+    "variants": [
+      "WINTE PARK",
+      "WINTER PARKS",
+      "WINTER PATK",
+      "WINTERE PARK",
+      "WINTERPARK"
+    ]
+  },
+  {
+    "city": "WINTER SPRINGS",
+    "county_name": "Seminole",
+    "county_code": "69",
+    "variants": [
+      "WINTER  SPRINGS",
+      "WINTER SPGS",
+      "WINTER SPRING",
+      "WINTERSPRING",
+      "WINTERSPRINGS"
+    ]
+  },
+  {
+    "city": "WORTHINGTON SPRINGS",
+    "county_name": "Union",
+    "county_code": "73",
+    "variants": [
+      "WORTINGTON SPRINGS"
+    ]
+  },
+  {
+    "city": "YANKEETOWN",
+    "county_name": "Levy",
+    "county_code": "48",
+    "variants": []
+  },
+  {
+    "city": "ZEPHYRHILLS",
+    "county_name": "Pasco",
+    "county_code": "61",
+    "variants": [
+      "ZEHPYRHILLS",
+      "ZEPHERHILLS",
+      "ZEPHREHILLS",
+      "ZEPHRHILLS",
+      "ZEPHRYHILLS",
+      "ZEPHYHILLS",
+      "ZEPHYR HILLS",
+      "ZEPHYRHILL",
+      "ZEPHYRHILLIS",
+      "ZEPHYRILLS"
+    ]
+  },
+  {
+    "city": "ZOLFO SPRINGS",
+    "county_name": "Hardee",
+    "county_code": "35",
+    "variants": []
+  }
+]
